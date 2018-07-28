@@ -1,0 +1,1425 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from davcmc.net.in/Home by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Jul 2018 14:52:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><title>
+	DAV College Managing Committee
+</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link href="Content/bootstrap-theme.css" rel="stylesheet" type="text/css" /><link href="Content/bootstrap.css" rel="stylesheet" type="text/css" /><link href="Style/jquery-ui-1.10.0.custom.min.css" rel="stylesheet" type="text/css" /><link href="Content/jquery.fs.naver.css" rel="stylesheet" type="text/css" /><link href="Style/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" /><link href="Content/fa.css" rel="stylesheet" /><link href="Style/Dav.css" rel="stylesheet" type="text/css" />
+    
+   
+  
+
+   <script src="Scripts/jquery-1.8.3.min.js" type="text/javascript"></script>
+   <script src="Scripts/jquery-ui-1.10.0.custom.min.js" type="text/javascript"></script>
+   <script src="Scripts/html5shiv.js" type="text/javascript"></script>
+   <script src="Content/bootstrap.min.js" type="text/javascript"></script>
+       <script src="Scripts/selectnav.min.js" type="text/javascript"></script>
+     <script src="Scripts/jquery.slidertron-1.2.js" type="text/javascript"></script>
+   <script src="Scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+   
+    <script src="Scripts/jssor.slider-27.1.0.min.html"></script>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery('#Menu1').css('float', 'none');
+            jQuery('#Menu1 >ul').attr('id', 'prithu');
+           // jQuery('.fancybox').fancybox();
+            jQuery('.selectnav').addClass('form-control');
+            selectnav('prithu');
+            jQuery('#ddlmagzine').change(function () {
+                if (jQuery('#ddlmagzine').val() == 0) {
+                    return false;
+                }
+                else {
+                    window.location = "Online-Magazine?mz=" + jQuery('#ddlmagzine').val();
+                }
+
+            });
+
+            $.mCustomScrollbar.defaults.theme = "light-4"; //set "light-2" as the default theme
+            $('.demo-x').mCustomScrollbar({
+                axis: "x",
+               // theme: "3d",
+                advanced: { autoExpandHorizontalScroll: true }
+            });
+            $('.scroll').mCustomScrollbar();
+
+
+
+            var miClass = ['box1', 'box2'];
+            var i = 0;
+            $('.Top-Bg-Menu li').each(function () {
+                $(this).addClass(miClass[i]);
+                i = (i + 1) % miClass.length;
+            });
+
+
+            jQuery('.DavFooterMenu').click(function () {
+                var link = $(this);
+                jQuery('.davFooterMenuList').slideToggle('slow', function () {
+                    if ($(this).is(":visible")) {
+                    
+                        link.text('Less (-)');
+                        jQuery('.bottom-header-bar').css('margin-bottom', '0');
+                    }
+                    else
+                    {
+                        link.text('More (+)');
+                        jQuery('.bottom-header-bar').css('margin-bottom', '42px');
+                    }
+                });
+            })
+        });
+
+        $(window).load(function () {
+            //$(".infiniteCarousel").endlessScroll({ width: '100%', height: '100px', steps: -2, speed: 40, mousestop: true });
+        });
+
+        $('#AppPortal').attr("data-status", "1");
+        $('#AppPortal').hide();
+        jQuery(document).on("click", "#davApp",
+            function () {
+                var _Status = $('#AppPortal').attr("data-status");
+                if (_Status == "1") {
+                    $('#AppPortal').fadeIn(500);
+                    $('#AppPortal').attr("data-status", "0");
+                }
+                else {
+                    $('#AppPortal').hide(500);
+                    $('#AppPortal').attr("data-status", "1");
+                }
+
+
+
+            }
+        );
+
+    </script>
+    
+    <script src="Scripts/Custome.js" type="text/javascript"></script>
+<meta /><meta /><style type="text/css">
+	/* <![CDATA[ */
+	#Menu1 img.icon { border-style:none;vertical-align:middle; }
+	#Menu1 img.separator { border-style:none;display:block; }
+	#Menu1 img.horizontal-separator { border-style:none;vertical-align:middle; }
+	#Menu1 ul { list-style:none;margin:0;padding:0;width:auto; }
+	#Menu1 ul.dynamic { z-index:1; }
+	#Menu1 a { text-decoration:none;white-space:nowrap;display:block; }
+	#Menu1 a.static { padding-left:0.15em;padding-right:0.15em; }
+	#Menu1 a.popout-dynamic { background:url("WebResource24e2.gif?d=qQ6sDoWbKcvdLPH3BC3oFhjtXg17WL8-7M4Ula_Mn_bw0pEgLz6VMr7jobY596GdBBuZDTFekzXaPI_7u4HgjRxNhNx7rRRqapTJ4vcYsrc1&amp;t=636576782940000000") no-repeat right center;padding-right:14px; }
+	/* ]]> */
+</style></head>
+<body class="scroll">
+    <a href="#" class="scrollToTop"><i class="glyphicon glyphicon-circle-arrow-up"></i></a>
+    <form method="post" action="http://davcmc.net.in/Home" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjA4ODIyNzE4Nw9kFgICAw9kFi4CAQ8PFgIeB1Zpc2libGVnZBYCAgEPDxYCHghJbWFnZVVybGVkZAIDDw8WBB4IQ3NzQ2xhc3MFCWNvbC1sZy0xMB4EXyFTQgICZBYEAgEPDxYCHgRUZXh0BR5EQVYgQ29sbGVnZSBNYW5hZ2luZyBDb21taXR0ZWVkZAIDDxYCHglpbm5lcmh0bWwFJUNoaXRyYSBHdXB0YSBSb2FkLCBOZXcgRGVsaGkgLSAxMTAwNTVkAgUPDxYCHwBoZGQCBw9kFgICAQ88KwANAQwUKwAKBSMwOjAsMDoxLDA6MiwwOjMsMDo0LDA6NSwwOjYsMDo3LDA6OBQrAAIWCB8EBQRIT01FHgVWYWx1ZQUkYzczZDJlY2QtMjRiMi00MWUxLWEwMDktZjMxODI1ZTM3MDdmHgtOYXZpZ2F0ZVVybAUFL0hvbWUeBlRhcmdldAUFX3NlbGZkFCsAAhYIHwQFB0RBViBDTUMfBgUkOTBhMDcyZmQtY2JkOC00MDgxLTliYTYtZGUxYjhhNGE4YTU5HwcFNi85MEEwNzJGRC1DQkQ4LTQwODEtOUJBNi1ERTFCOEE0QThBNTkvQ01TL1BhZ2UvREFWLUNNQx8IBQVfc2VsZhQrAAcFFzA6MCwwOjEsMDoyLDA6MywwOjQsMDo1FCsAAhYIHwQFDERBViBNb3ZlbWVudB8GBSRmYjhlZjA4Mi1mMzk3LTRhNjUtYTY0MC1lNmE3OWZhNzM2YzMfBwU7L0ZCOEVGMDgyLUYzOTctNEE2NS1BNjQwLUU2QTc5RkE3MzZDMy9DTVMvUGFnZS9EQVYtTW92ZW1lbnQfCAUFX3NlbGZkFCsAAhYIHwQFFlByZXNlbnQgT2ZmaWNlIEJlYXJlcnMfBgUkMjQyNTZiYzEtMWNmOS00YWNlLTkyOTEtZjY5YWQ5MGVkMjRjHwcFRS8yNDI1NkJDMS0xQ0Y5LTRBQ0UtOTI5MS1GNjlBRDkwRUQyNEMvQ01TL1BhZ2UvUHJlc2VudC1PZmZpY2UtQmVhcmVycx8IBQVfc2VsZmQUKwACFggfBAULSGVhZCBPZmZpY2UfBgUkMjE0MDliN2YtNWM1ZS00OTFlLWE5NmQtNTg3MjZkNmUwYzE1HwcFOi8yMTQwOUI3Ri01QzVFLTQ5MUUtQTk2RC01ODcyNkQ2RTBDMTUvQ01TL1BhZ2UvSGVhZC1PZmZpY2UfCAUFX3NlbGZkFCsAAhYIHwQFGE1lc3NhZ2Ugb2YgVGhlIFByZXNpZGVudB8GBSQ5MDJjYWQzNi00Mjc2LTQ2YTgtOTk4Ny02OTZkY2Y0MGIwZmIfBwVHLzkwMkNBRDM2LTQyNzYtNDZBOC05OTg3LTY5NkRDRjQwQjBGQi9DTVMvUGFnZS9NZXNzYWdlLW9mLVRoZS1QcmVzaWRlbnQfCAUFX3NlbGZkFCsAAhYIHwQFD1Bhc3QgUHJlc2lkZW50cx8GBSQ2ZDg4ZTA1MC1iNDM1LTQ0NzMtOGMzMy0wMDFhODc0ZDg4YjYfBwU+LzZEODhFMDUwLUI0MzUtNDQ3My04QzMzLTAwMUE4NzREODhCNi9DTVMvUGFnZS9QYXN0LVByZXNpZGVudHMfCAUFX3NlbGZkFCsAAhYIHwQFCkRBViBBbnRoZW0fBgUkNWE1ZTlhY2MtMjZhYi00NzgzLTg3MjMtYzAyMzk2MGRlZmE1HwcFOS81QTVFOUFDQy0yNkFCLTQ3ODMtODcyMy1DMDIzOTYwREVGQTUvQ01TL1BhZ2UvREFWLUFudGhlbR8IBQVfc2VsZmQUKwACFggfBAUJQUNISUVWRVJTHwYFJGExMDVhZDBjLTZjNzQtNDI4NS1iNmVkLWVmODUyZjVmYzUwYx8HBQwvQWNoaWV2ZW1lbnQfCAUFX3NlbGZkFCsAAhYIHwQFC0RBViBORVRXT1JLHwYFJDc1NmRlNGQ1LTJiZjgtNGI1Ni1iYWVmLThmM2Y4MDQ3YmJiOR8HBRNqYXZhc2NyaXB0OnZvaWQoMCk7HwgFBV9zZWxmFCsABQUPMDowLDA6MSwwOjIsMDozFCsAAhYIHwQFC0RBViBTY2hvb2xzHwYFJGNhYmIwNDIzLTQ4M2UtNGU0OC1hZTVmLWM0ZDY0YWFiZWMxZh8HBTovQ0FCQjA0MjMtNDgzRS00RTQ4LUFFNUYtQzRENjRBQUJFQzFGL0NNUy9QYWdlL0RBVi1TY2hvb2xzHwgFBV9zZWxmZBQrAAIWCB8EBQxEQVYgQ29sbGVnZXMfBgUkNTQ3ODgyMzMtYTljNC00YjcwLTg5NWUtMjAzMWI2YjU4ZGY4HwcFOy81NDc4ODIzMy1BOUM0LTRCNzAtODk1RS0yMDMxQjZCNThERjgvQ01TL1BhZ2UvREFWLUNvbGxlZ2VzHwgFBV9zZWxmZBQrAAIWCB8EBRFEQVYgQWlkZWQgU2Nob29scx8GBSQ0YmU1M2MwZS1jMTkxLTRjM2MtYTY5OS04NTBiZjllMjAxMzQfBwVALzRCRTUzQzBFLUMxOTEtNEMzQy1BNjk5LTg1MEJGOUUyMDEzNC9DTVMvUGFnZS9EQVYtQWlkZWQtU2Nob29scx8IBQVfc2VsZmQUKwACFggfBAUOU29jaW8tQ3VsdHVyYWwfBgUkODdmNGZjZTMtNGRiNC00MDIwLTgwZGYtYjMzZGJlYWEyNTFjHwcFPS84N0Y0RkNFMy00REI0LTQwMjAtODBERi1CMzNEQkVBQTI1MUMvQ01TL1BhZ2UvU29jaW8tQ3VsdHVyYWwfCAUFX3NlbGZkFCsAAhYIHwQFDkRBViBVTklWRVJTSVRZHwYFJDQ5ZTIxODEyLWYxN2UtNGM3Zi04MTY1LTdhOWZkOGJkOWM1ZB8HBRpodHRwczovL2RhdnVuaXZlcnNpdHkub3JnLx8IBQZfYmxhbmtkFCsAAhYIHwQFCkRFUEFSVE1FTlQfBgUkMjQxOGZhOTMtMzM4ZC00OTllLWE4NTQtZWI4ZGFiMDVjZGE1HwcFE2phdmFzY3JpcHQ6dm9pZCgwKTsfCAUFX3NlbGYUKwADBQcwOjAsMDoxFCsAAhYIHwQFIkRBViBDZW50cmUgZm9yIEFjYWRlbWljIEV4Y2VsbGVuY2UfBgUkMWViMTdlNTItMzU3Zi00ODFkLTgxMmEtZjgxYzcwYjNmNGRhHwcFFWh0dHA6Ly9kYXZjYWUubmV0LmluLx8IBQZfYmxhbmtkFCsAAhYIHwQFFFB1YmxpY2F0aW9uIERpdmlzaW9uHwYFJDE1ODE1YTEyLTg4MmEtNDcxYi04ZDc2LTM5ZjFmNjBiNGNlMB8HBUMvMTU4MTVBMTItODgyQS00NzFCLThENzYtMzlGMUY2MEI0Q0UwL0NNUy9QYWdlL1B1YmxpY2F0aW9uLURpdmlzaW9uHwgFBV9zZWxmZBQrAAIWCB8EBQdHQUxMRVJZHwYFJGRjOWQ0OTI1LTE3YzEtNDcxYi04MzI4LThlZWZlNDdkZDM3ZB8HBRNqYXZhc2NyaXB0OnZvaWQoMCk7HwgFBV9zZWxmFCsAAgUDMDowFCsAAhYIHwQFDVBob3RvIEdhbGxlcnkfBgUkMjJiNjg3ZjgtMzkwZS00MjFmLWJhNjEtMzdlZDhiNDE4NTRhHwcFDy9GdWxsL1Bob3RvL2FsbB8IBQVfc2VsZmQUKwACFggfBAUKREFWIFZJREVPUx8GBSQ5MTg5ODA5My0xMDA0LTQ4ZjUtOTExNC1kNDQ3OGJmMDY0MmIfBwUTamF2YXNjcmlwdDp2b2lkKDApOx8IBQVfc2VsZhQrAAUFDzA6MCwwOjEsMDoyLDA6MxQrAAIWCB8EBSFEYWRhIFZhc3dhbmkgTWVzc2FnZSBmb3IgQ2hpbGRyZW4fBgUkMmZjOTFhYzctY2JjYS00ZTE1LTgxYzktMDU2YmFjNGZjMDUwHwcFUC8yRkM5MUFDNy1DQkNBLTRFMTUtODFDOS0wNTZCQUM0RkMwNTAvQ01TL1BhZ2UvRGFkYS1WYXN3YW5pLU1lc3NhZ2UtZm9yLUNoaWxkcmVuHwgFBV9zZWxmZBQrAAIWCB8EBSlEYWRhIFZhc3dhbmkgTWVzc2FnZSBmb3IgREFWIE9yZ2FuaXNhdGlvbh8GBSQwODEzNDhlMS1kNmRiLTQ0NWMtODBlNy05YmI1Y2RiOTg1MzcfBwVYLzA4MTM0OEUxLUQ2REItNDQ1Qy04MEU3LTlCQjVDREI5ODUzNy9DTVMvUGFnZS9EYWRhLVZhc3dhbmktTWVzc2FnZS1mb3ItREFWLU9yZ2FuaXNhdGlvbh8IBQVfc2VsZmQUKwACFggfBAUQREFWIE11a2h5YW1hbnRyaR8GBSQ2YmUxZmQ5Ny00YjEwLTRhMjYtYWQyNy0xOWU2NmQ5MjU2ZTQfBwU/LzZCRTFGRDk3LTRCMTAtNEEyNi1BRDI3LTE5RTY2RDkyNTZFNC9DTVMvUGFnZS9EQVYtTXVraHlhbWFudHJpHwgFBV9zZWxmZBQrAAIWCB8EBRhEQVYgVW5pdmVyc2l0eSBKYWxhbmRoYXIfBgUkZDczMTU4YTctOWQ4Yi00ZDI4LTlhZjctYjQ5MDk3ZjI5ZDg0HwcFRy9ENzMxNThBNy05RDhCLTREMjgtOUFGNy1CNDkwOTdGMjlEODQvQ01TL1BhZ2UvREFWLVVuaXZlcnNpdHktSmFsYW5kaGFyHwgFBV9zZWxmZBQrAAIWCB8EBQlIRUxQIERFU0sfBgUkODdjYTdlMmMtZjY3Yy00YWM3LWFiNTUtNGQwMjMwYmFhZTZlHwcFEmphdmFzY3JpcHQ6dm9pZCgwKR8IBQVfc2VsZhQrAAIFAzA6MBQrAAIWCB8EBQpDb250YWN0IFVzHwYFJGNlOGUyMTc2LTBlYTgtNDVlYi05Y2EyLTgxMDRkMmM5ODVlNx8HBTkvQ0U4RTIxNzYtMEVBOC00NUVCLTlDQTItODEwNEQyQzk4NUU3L0NNUy9QYWdlL0NvbnRhY3QtVXMfCAUFX3NlbGZkZAIJD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAIJFhRmD2QWAmYPFQEAZAIBD2QWAmYPFQUCMzIbSW50ZXJuYXRpb25hbCBZb2dhIERheSAyMDE4DjIxc3QgSnVuZSAyMDE4Oy9GaWxlL1NsaWRlcl83YWY0ZDhiNS03NTZhLTQ5ZjYtYjllZC05MTc4ZDQ3MDg0ZmJfWU9HQTEuanBnG0ludGVybmF0aW9uYWwgWW9nYSBEYXkgMjAxOGQCAg9kFgJmDxUFAjM0SENvbmZlcmVuY2Ugb24gRWZmZWN0aXZlIE1hbmFnZW1lbnQgb2YgSHVtYW4gUmVzb3VyY2UgaW4gREFWIEluc3RpdHV0aW9ucw4zMC0zMSBNYXkgMjAxODgvRmlsZS9TbGlkZXJfZmJmY2Q4ZGMtZGI0ZS00MjQ2LThlMjgtMjIzZDU5NjA0YjE4X3MxLmpwZ0hDb25mZXJlbmNlIG9uIEVmZmVjdGl2ZSBNYW5hZ2VtZW50IG9mIEh1bWFuIFJlc291cmNlIGluIERBViBJbnN0aXR1dGlvbnNkAgMPZBYCZg8VBQIzNUhDb25mZXJlbmNlIG9uIEVmZmVjdGl2ZSBNYW5hZ2VtZW50IG9mIEh1bWFuIFJlc291cmNlIGluIERBViBJbnN0aXR1dGlvbnMOMzAtMzEgTWF5IDIwMTg4L0ZpbGUvU2xpZGVyXzc3YjFmZTM0LWZlYzItNDk5Ny04ODg5LTFmNjIyZGM2MGJmOV9TMi5qcGdIQ29uZmVyZW5jZSBvbiBFZmZlY3RpdmUgTWFuYWdlbWVudCBvZiBIdW1hbiBSZXNvdXJjZSBpbiBEQVYgSW5zdGl0dXRpb25zZAIED2QWAmYPFQUCMzYqSW5kdWN0aW9uIFByb2dyYW1tZSBvZiBEQVYgSGVhZHMgYXQgREFWQ01DDjQtMTMgSnVuZSAyMDE4Pi9GaWxlL1NsaWRlcl82MTc3MzhkNC00N2FiLTQ4MTQtOWFhMC02NDg3NjIwZmZiZjNfSU1HXzAwMjMuanBnKkluZHVjdGlvbiBQcm9ncmFtbWUgb2YgREFWIEhlYWRzIGF0IERBVkNNQ2QCBQ9kFgJmDxUFAjM3KkluZHVjdGlvbiBQcm9ncmFtbWUgb2YgREFWIEhlYWRzIGF0IERBVkNNQw40LTEzIEp1bmUgMjAxOD4vRmlsZS9TbGlkZXJfZGY4NjNiOTAtZmY2My00MzE5LWFkODgtZjAxZWUwNGQ2N2UzX0lNR18wMDQ0LmpwZypJbmR1Y3Rpb24gUHJvZ3JhbW1lIG9mIERBViBIZWFkcyBhdCBEQVZDTUNkAgYPZBYCZg8VBQIzOCpJbmR1Y3Rpb24gUHJvZ3JhbW1lIG9mIERBViBIZWFkcyBhdCBEQVZDTUMONC0xMyBKdW5lIDIwMTg+L0ZpbGUvU2xpZGVyXzM1ZjA5ZDkwLTUyNjYtNDg3OC04N2QzLTFmYWU4ZTc5ZTMyYl9JTUdfMDA0OS5qcGcqSW5kdWN0aW9uIFByb2dyYW1tZSBvZiBEQVYgSGVhZHMgYXQgREFWQ01DZAIHD2QWAmYPFQUCNDIqSW5kdWN0aW9uIFByb2dyYW1tZSBvZiBEQVYgSGVhZHMgYXQgREFWQ01DDjQtMTMgSnVuZSAyMDE4Pi9GaWxlL1NsaWRlcl9iMmYwODMwNS1lZWY5LTQxMTktYjljMC01OTc3OTY1NGZhNGJfSU1HXzAwODMuanBnKkluZHVjdGlvbiBQcm9ncmFtbWUgb2YgREFWIEhlYWRzIGF0IERBVkNNQ2QCCA9kFgJmDxUFAjQzDlNhbWFycGFuIERpd2FzDzIxc3QgQXByaWwgMjAxODkvRmlsZS9TbGlkZXJfMTUxODA0NTItMTM4NS00ZjExLWI0MDAtNjk2MjNiZTE2YjNkX3NkMy5qcGcOU2FtYXJwYW4gRGl3YXNkAgkPZBYCZg8VBQI0NA5TYW1hcnBhbiBEaXdhcw8yMXN0IEFwcmlsIDIwMTg4L0ZpbGUvU2xpZGVyX2JlNzNjNjRkLTJkYjYtNDM0ZC04OWFlLWZmMWIwMmMwZGE3OV9zNS5wbmcOU2FtYXJwYW4gRGl3YXNkAgsPDxYCHwRlZGQCDQ9kFgICAQ8WAh8JAgMWBgIBD2QWAmYPFQNjL1Byb2ZpbGVJbWFnZXMvNTljY2IyMDctNDVkMC00Mjk2LWJjYmYtN2FjYzY5ZmY3ZTc3XzU0NDlmYjI1LWQxY2ItNDFmMy04OWEyLWMwY2ZkYjcwZjYxNV9kYXZjbWMucG5nB0RBViBDTUO2BTxwIHN0eWxlPSJ0ZXh0LWFsaWduOiBqdXN0aWZ5OyI+DQoJPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMnB4OyI+REFWQ01DIHJ1bnMgYW5kIG1hbmFnZXMgb3ZlciZuYnNwOyA5MDAgZWR1Y2F0aW9uYWwgaW5zdGl0dXRpb25zIGNvbXByaXNpbmcgb2YgcHVibGljIHNjaG9vbHMsIGdyYW50cy1pbi1haWQgc2Nob29scywgY29sbGVnZXMsIGluc3RpdHV0ZXMgb2YgcHJvZmVzc2lvbmFsIGVkdWNhdGlvbiBhbmQgcmVzZWFyY2ggaW5zdGl0dXRpb25zLiBUcnVzdGVkIGJ5IGJvdGguPC9zcGFuPjwvcD4NCjxwIHN0eWxlPSJtYXJnaW46IDBweCAwcHggMTVweDsgcGFkZGluZzogMHB4OyBmb250LXNpemU6IDIwcHg7IGZvbnQtd2VpZ2h0OiBub3JtYWw7IGxpbmUtaGVpZ2h0OiBub3JtYWw7IGNvbG9yOiByZ2IoNTEsIDUxLCA1MSk7IGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOyB0ZXh0LWFsaWduOiByaWdodDsiPg0KCTxhIGhyZWY9Ii85MEEwNzJGRC1DQkQ4LTQwODEtOUJBNi1ERTFCOEE0QThBNTkvQ01TL1BhZ2UvREFWLUNNQyI+PHNwYW4gc3R5bGU9ImNvbG9yOiNiMjIyMjI7Ij48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IEFyaWFsLCBWZXJkYW5hLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDEycHg7Ij5Db250aW51ZSBSZWFkaW5nICZyYXF1bzs8L3NwYW4+PC9zcGFuPjwvYT48L3A+DQpkAgIPZBYCZg8VA0cvUHJvZmlsZUltYWdlcy85NWE5MmI1MS02MjBkLTQxMjQtOGQwNi0xMmM3NDVmN2U1ZmZfcHJlc2lkZW50LWluZGV4LmpwZxNQcmVzaWRlbnQncyBNZXNzYWdljwU8ZGl2Pg0KCTxwPg0KCQk8c3Ryb25nPllvdSBBcmUgTWVhbnQgVG8gTW92ZSBNb3VudGFpbnMhPC9zdHJvbmc+PC9wPg0KCTxkaXY+DQoJCTxzdHJvbmc+RG8geW91IGtub3cgd2hhdCBzdHJvbmcgd2lsbHBvd2VyIGNhbiBkbz8gSXQgY2FuIGRvIG1hZ2ljISZuYnNwOzwvc3Ryb25nPjwvZGl2Pg0KCTxkaXY+DQoJCTxkaXY+DQoJCQlJIGhhdmUgYWx3YXlzIGJlZW4gZmFzY2luYXRlZCB3aXRoIHRoZSBzYXlpbmcgdGhhdCBhIHN0cm9uZyBiZWxpZWYgY2FuIG1vdmUgbW91bnRhaW5zLjwvZGl2Pg0KCTwvZGl2Pg0KPC9kaXY+DQo8cCBzdHlsZT0idGV4dC1hbGlnbjogcmlnaHQ7Ij4NCgk8YSBocmVmPSIvOTAyQ0FEMzYtNDI3Ni00NkE4LTk5ODctNjk2RENGNDBCMEZCL0NNUy9QYWdlL1ByZXNpZGVudHMtTWVzc2FnZSIgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDIwcHg7IHRleHQtYWxpZ246IHJpZ2h0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMTc4LCAzNCwgMzQpOyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgVmVyZGFuYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxMnB4OyI+Q29udGludWUgUmVhZGluZyAmcmFxdW87PC9zcGFuPjwvc3Bhbj48L2E+PC9wPg0KZAIDD2QWAmYPFQNBL1Byb2ZpbGVJbWFnZXMvMjM3Y2RhZWQtNmIzZS00MTJjLTliODktOTg2YzczZmJlOWEyX2FyeWEtc2Ftai5qcGcKQXJ5YSBTYW1hatgEPHAgc3R5bGU9InRleHQtYWxpZ246IGp1c3RpZnk7Ij4NCgk8c3BhbiBzdHlsZT0iZm9udC1zaXplOjEycHg7Ij5BcnlhIFNhbWFqIGlzIGEgcHJvZ3Jlc3NpdmUgZmFpdGggYW5kIGEgd2F5IG9mIGxpZmUgZm91bmRlZCBieSBTd2FtaSBEYXlhbmFuZCBTYXJhc3dhdGkuIEFyeWEgU2FtYWogYWltcyBhdCBtYWtpbmcgbWFuIGEgZ29vZCBodW1hbiBiZWluZyBhbmQgYWNoaWV2aW5nIHRoZSB0d28tZm9sZCBkZXZlbG9wbWVudCBpLmUuIHRoZSBzcGlyaXR1YWwuPC9zcGFuPjwvcD4NCjxwIHN0eWxlPSJ0ZXh0LWFsaWduOiByaWdodDsiPg0KCTxhIGhyZWY9Imh0dHA6Ly9hcHBzYWJoYS5vcmcvIiBzdHlsZT0idGV4dC1hbGlnbjogcmlnaHQ7IGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDIwcHg7IiB0YXJnZXQ9Il9ibGFuayI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMTc4LCAzNCwgMzQpOyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgVmVyZGFuYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxMnB4OyI+Q29udGludWUgUmVhZGluZyAmcmFxdW87PC9zcGFuPjwvc3Bhbj48L2E+PC9wPg0KZAIPDw8WAh8EBQlDaXJjdWxhcnNkZAIRD2QWAgIBDxYCHwkCARYCAgEPZBYCZg8VAlUyNDk3NjI1ZC1jYmM3LTRjMmQtODU4ZS1hN2VkMjZiOTBlOTBfZDM4YzliN2ItOTRjYi00NDYxLTk1MmItMTdhNmJlNDg0Y2FlX0RDQUUoMSkucGRmUkZvciBWaXNpdGluZyBEQVYgQ2VudHJlIGZvciBBY2FkZW1pYyBFeGNlbGxlbmNlIFBsZWFzZSBsb2cgb24gdG8gd3d3LmRhdmNhZS5uZXQuaW5kAhMPDxYCHwQFDkRBViBDTUMgRXZlbnRzZGQCFQ9kFgICAQ8WAh8JAgcWDgIBD2QWAmYPFQQKMDQvMDYvMjAxOAoxMy8wNi8yMDE4FC8xMy9FdmVudC9EZXRhaWwvRGF2H0luZHVjdGlvbiBQcm9ncmFtbWUgKEp1bmUtMjAxOClkAgIPZBYCZg8VBAozMC8wNS8yMDE4CjMxLzA1LzIwMTgULzEyL0V2ZW50L0RldGFpbC9EYXZoVHdvIERheXMgQ29uZmVyZW5jZSBvbiBFZmZlY3RpdmUgTWFuYWdlbWVudCBvZiBIdW1hbiBSZXNvdXJjZSBpbiBEQVYgSW5zdGl0dXRpb25zIGZvciBSZWdpb25hbCBEaXJlY3RvcnNkAgMPZBYCZg8VBAoyMS8wNC8yMDE4CjIxLzA0LzIwMTgULzExL0V2ZW50L0RldGFpbC9EYXYhREFWIE9yZ2FuaXNlcyBTYW1hcnBhbiBEaXdhcy0yMDE4ZAIED2QWAmYPFQQKMjcvMDMvMjAxOAoyNy8wMy8yMDE4FC8xMC9FdmVudC9EZXRhaWwvRGF2REdvbGRlbiBKdWJpbGVlIENlbGVicmF0aW9ucyBvZiBNQ00gREFWIENvbGxlZ2UgZm9yIFdvbWVuLCBDaGFuZGlnYXJoZAIFD2QWAmYPFQQKMjcvMDMvMjAxOAoyNy8wMy8yMDE4Ey85L0V2ZW50L0RldGFpbC9EYXY1R292ZXJub3Igb2YgTWVnaGFsYXlhIFNoLiBHYW5nYSBQcmFzYWQgdmlzaXRlZCBEQVZDTUNkAgYPZBYCZg8VBAoxNS8wMS8yMDE4CjI0LzAzLzIwMTgTLzcvRXZlbnQvRGV0YWlsL0Rhdh5JbmR1Y3Rpb24gUHJvZ3JhbW1lIChKYW4tMjAxOClkAgcPZBYCZg8VBAoxMS8xMC8yMDE3CjExLzEwLzIwMTcTLzgvRXZlbnQvRGV0YWlsL0RhdhZCaGFyYXQgWWF0cmEgYXQgSmFpcHVyZAIXDw8WAh8EBRREQVYgQ01DIEFjaGlldmVtZW50c2RkAhkPZBYCAgEPFgIfCQIDFgYCAQ9kFgJmDxUDMi9GaWxlLzBiMTNiYTA5LTE3N2MtNGU5MC05MDdkLWQ0MGIyNmMwYTY1ZF9BY2guanBnKi8xNS9BY2hpZXZlbWVudC1EZXRhaWwvT3VyLVByb3VkLUFjaGlldmVyIRNPdXIgUHJvdWQgQWNoaWV2ZXIhZAIDD2QWAmYPFQMyL0ZpbGUvZTNkZjBmNWUtMWE2Ni00NWZhLWIyMzUtZWY1YTgzZTcxZWNkX0FjaC5qcGc3LzE0L0FjaGlldmVtZW50LURldGFpbC9TdWNjZXNzLVN0b3J5LU9mLUdvbGQtYW5kLUdsb3J5ISBTdWNjZXNzIFN0b3J5IE9mIEdvbGQgYW5kIEdsb3J5IWQCBQ9kFgJmDxUDMi9GaWxlLzJkZjI1NjZkLWQyYzAtNGI1OS05NDcyLTg3MmFiNTQ3ZjNkZF9BY2guanBnVC81L0FjaGlldmVtZW50LURldGFpbC9JbnRlbC1JbnRlcm5hdGlvbmFsLVNjaWVuY2UtYW5kLUVuZ2luZWVyaW5nLUZhaXItaW4tVVNBLS0tMjAxOD5JbnRlbCBJbnRlcm5hdGlvbmFsIFNjaWVuY2UgYW5kIEVuZ2luZWVyaW5nIEZhaXIgaW4gVVNBIC0gMjAxOGQCGw8PFgIfAGdkZAIdDw8WAh8EBQhJTiBGT0NVU2RkAh8PZBYCAgEPFgIfCQIHFg4CAQ9kFgRmDxUB/gI8cD4NCgk8aW1nIHNyYz0iaHR0cDovL2RhdmNtYy5uZXQuaW4vRmlsZS80L2ltYWdlNDAxMS5naWYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiBpbml0aWFsOyB3aWR0aDogMzdweDsiPiA8YSBocmVmPSIvRmlsZS80L0VtcEZvcm1fSGFyeWFuYS5wZGYiIHRhcmdldD0iX2JsYW5rIj48c3BhbiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogaW5pdGlhbDsiPjxzdHJvbmc+PC9zdHJvbmc+PC9zcGFuPjxzdHJvbmc+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoNTQsIDk2LCAxNDYpOyI+QXBwbGljYXRpb24gZm9yIHRoZSBwb3N0IG9mIFByaW5jaXBhbC9EaXJlY3RvciBpbiBEQVYgSW5zdC4gT2YgRmFyaWRhYmFkLCBIYXJ5YW5hLjwvc3Bhbj48L3N0cm9uZz48L2E+DQo8L3A+ZAIBDxYCHwBoFgJmDxUBAGQCAg9kFgRmDxUBiAM8cD4NCgkgPGltZyBzcmM9Imh0dHA6Ly9kYXZjbWMubmV0LmluL0ZpbGUvNC9pbWFnZTQwMTEuZ2lmIiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogaW5pdGlhbDsgd2lkdGg6IDM3cHg7Ij4gPGEgaHJlZj0iL0ZpbGUvNC9QcmluY2lwYWwgRm9ybS5wZGYiIHRhcmdldD0iX2JsYW5rIj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzMSwgNzMsIDEyNSk7Ij48c3BhbiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogaW5pdGlhbDsiPjwvc3Bhbj48L3NwYW4+PHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzMSwgNzMsIDEyNSk7Ij5BcHBsaWNhdGlvbiBmb3IgdGhlIFBvc3Qgb2YgUHJpbmNpcGFsL0hNIGluIERBViBQdWJsaWMgU2Nob29scy48L3NwYW4+PC9zdHJvbmc+PC9hPg0KPC9wPmQCAQ8WAh8AaBYCZg8VAQBkAgMPZBYEZg8VAYMEPHA+DQoJPGltZyBzcmM9Ii9GaWxlLzQvaW1hZ2U0MDExLmdpZiIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGluaXRpYWw7IHdpZHRoOiAzN3B4OyI+PHN0cm9uZyBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogaW5pdGlhbDsiPjxzcGFuIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiBpbml0aWFsOyBjb2xvcjogcmdiKDMxLCA3MywgMTI1KTsiPiA8L3NwYW4+PC9zdHJvbmc+PHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzMSwgNzMsIDEyNSk7Ij48YSBocmVmPSJodHRwczovL2RyaXZlLmdvb2dsZS5jb20vZmlsZS9kLzFJWHo5UzMyZm5xcm1Yd1JmaWJ6a1dCcEgxVVU1QjJGai92aWV3P3VzcD1zaGFyaW5nIiB0YXJnZXQ9Il9ibGFuayI+PHNwYW4gZGF0YS1yZWRhY3Rvcj0idmVyaWZpZWQiIHN0eWxlPSJjb2xvcjogcmdiKDMxLCA3MywgMTI1KTsiPkV4cHJlc3Npb24gb2YgSW50ZXJlc3QgZm9yIFJ1bm5pbmcgb2YgREFWIENlbnRlcjwvc3Bhbj48L2E+Ljwvc3Bhbj48L3N0cm9uZz4NCjwvcD5kAgEPFgIfAGgWAmYPFQEAZAIED2QWBGYPFQHkAzxoND48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigwLCAwLCAwKTsgYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwgMjU1LCAwKTsiPlNjaG9vbHM6PC9zcGFuPjwvaDQ+DQo8cD4NCgkgPGltZyBzcmM9Ii9GaWxlLzQvaW1hZ2U0MDExLmdpZiIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGluaXRpYWw7IHdpZHRoOiAzNnB4OyI+IDxhIGhyZWY9Ii9GaWxlLzQvU2Nob29sc19Hcl9MRV9HU1QuemlwIiB0YXJnZXQ9Il9ibGFuayI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzEsIDczLCAxMjUpOyI+PHNwYW4gc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGluaXRpYWw7Ij48L3NwYW4+PHN0cm9uZz48L3N0cm9uZz48L3NwYW4+PHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzMSwgNzMsIDEyNSk7Ij5Qcm9mb3JtYSBvZiBHcmF0dWl0eS9MZWF2ZSBFbmNhc2htZW50IGFuZCBDaXJjdWxhciBvZiBHU1QuPC9zcGFuPjwvc3Ryb25nPjwvYT4NCjwvcD5kAgEPFgIfAGgWAmYPFQEAZAIFD2QWBGYPFQHDBDxoND48c3BhbiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwgMjU1LCAwKTsgY29sb3I6IHJnYigwLCAwLCAwKTsiPkNvbGxlZ2VzOjwvc3Bhbj48L2g0Pg0KPHA+DQoJPGltZyBzcmM9Ii9GaWxlLzQvaW1hZ2U0MDExLmdpZiIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGluaXRpYWw7IHdpZHRoOiAzNnB4OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzEsIDczLCAxMjUpOyI+PHNwYW4gc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGluaXRpYWw7Ij4gPC9zcGFuPjxzcGFuIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiBpbml0aWFsOyI+PHN0cm9uZz48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzMSwgNzMsIDEyNSk7Ij48L3NwYW4+PC9zdHJvbmc+PC9zcGFuPjwvc3Bhbj48c3Ryb25nPjxhIGhyZWY9Ii9GaWxlLzQvR1NUIExFIEdSIENvbGxlZ2VzLnppcCIgdGFyZ2V0PSJfYmxhbmsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDU0LCA5NiwgMTQ2KTsiPlByb2Zvcm1hIG9mIEdyYXR1aXR5L0xlYXZlIEVuY2FzaG1lbnQgYW5kIENpcmN1bGFyIG9mIEdTVC48L3NwYW4+PC9hPjwvc3Ryb25nPg0KPC9wPmQCAQ8WAh8AaBYCZg8VAQBkAgYPZBYEZg8VAbsHPHAgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlcjsiPg0KCTxhIGhyZWY9Imh0dHBzOi8vZGF2dW5pdmVyc2l0eS5vcmcvIiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogaW5pdGlhbDsiPjxicj4NCgkgPGltZyBzcmM9Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS84WkhBT2tkdEtWUGw1d1FIRkdEbUJtWE5IYnpYOUxnMmVydGFBU3lJRnZ3Y1A4eGZ6VUJuRXFyaFhqUnVrNWwzRWo3MXZMX09mWk9BMTdSVzdjaWwyVXFyamNCNzczYzJJemFMNWJja3lKbnM4Z2p1cWtSb2RHZVFDbVFKTzlqXzVoUFlCMURSR1JwYmhpbWpXMVdlVUVJLUd4cGM2UTBuUmkyOWFIUzZieXRLQ0g3b3FzMUFwRDJrWlNlRXNtbzRHV1MtTDZnb3JPYnRxX0hkQUVmM0hQT1ZvZm45ZXhXNzZIRE5pS0Z3S1FoZ2x6UktaUWVtcHhiU2lrMUY2elJMVXB3a3RmN2Zacm1lenlPaFk5WGNWOFFsLXpHUzlXRXRTeFBpanNGLV9jZWtnYXhLallNdUNsTEdCU0VkOThmdXZZaEl4RlBrY3dVMHV6NjlPczlnSjRyWTktYmpSb0RJUVUtRnd0T3A3QWVfZXgxODRSY0hrblVFc2pjQnNvd1BpaEladmxvcm81WU9CN2pLdmpHN2RGWnhZU3loTW94Yi1LM2lJbGxuN19tQ180VDk5T0JkdkpGdk12N3hIdExOelFXdW16bUdaWGpEdHhlRU9Qcmdkby1QalhOOUdsdzlVbW14bTBGUHF5RHV3c2pWcXlTdlVka3lUekcyQlRYdUtkMHpXUmRmdjBaNDhnZFZfOXBOYk5hTDc0T21VOGVTQXZUZTNZRVVCVnRzTHUwUzNqcXM3MUVIdVFka0w2Qk9QSFFpMXVFaW9ldmVTQ3kyVXhUaW5PdWhEa1dDNUlQaExGcG1DTDA9dzY1Mi1oMjAwLW5vIiBhbHQ9IiIgc3R5bGU9IndpZHRoOiAyMzhweDsiIGJvcmRlcj0iMSI+PC9hPg0KPC9wPg0KPHAgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlcjsiPg0KPC9wPg0KPHAgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlcjsiPg0KPC9wPg0KPHAgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlcjsiPg0KPC9wPmQCAQ8WAh8AaBYCZg8VAQBkAgcPZBYEZg8VAZICPHA+DQoJPHNwYW4gc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IGluaXRpYWw7Ij5BPC9zcGFuPjxzcGFuIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiBpbml0aWFsOyI+bGwgdGhlIGhlYWRzIGFyZSBpbmZvcm1lZCBub3QgdG8gbWFrZSBhbnkgZG9uYXRpb25zIHVudGlsIGFuZCB1bmxlc3MgZGlyZWN0ZWQgYnkgPHN0cm9uZz5EQVYgQ29sbGVnZSBNYW5hZ2luZyBDb21taXR0ZWUgb3IgQXJ5YSBQcmFkaGVzaGlrIFByYXRpbmlkaGkgU2FiaGEuPC9zdHJvbmc+PC9zcGFuPg0KPC9wPmQCAQ8WAh8AaBYCZg8VAQBkAiEPZBYEAgMPDxYCHwQFDVBob3RvIEdhbGxlcnlkZAIFD2QWAgIBDzwrAAkBAA8WBB4IRGF0YUtleXMWAB8JAg5kFhwCAQ9kFgJmDxUESENvbmZlcmVuY2Ugb24gRWZmZWN0aXZlIE1hbmFnZW1lbnQgb2YgSHVtYW4gUmVzb3VyY2UgaW4gREFWIEluc3RpdHV0aW9uc0QvUGhvdG9HYWxsZXJ5L1NtYWxsL2QxYTAzYjFkLTRlMDItNDM3My1hYjk0LTEyMWNiN2RhM2M5M19EU0M3MjY3LkpQR0hDb25mZXJlbmNlIG9uIEVmZmVjdGl2ZSBNYW5hZ2VtZW50IG9mIEh1bWFuIFJlc291cmNlIGluIERBViBJbnN0aXR1dGlvbnNIQ29uZmVyZW5jZSBvbiBFZmZlY3RpdmUgTWFuYWdlbWVudCBvZiBIdW1hbiBSZXNvdXJjZSBpbiBEQVYgSW5zdGl0dXRpb25zZAIDD2QWAmYPFQQSREFWIEZvdW5kYXRpb24gRGF5RC9QaG90b0dhbGxlcnkvU21hbGwvZWFiMzJlNGItNmQ1My00MGQwLTg1MmYtZTBiMDQ5NDkzNzY5X0ZEICgyMCkuSlBHEkRBViBGb3VuZGF0aW9uIERheRJEQVYgRm91bmRhdGlvbiBEYXlkAgUPZBYCZg8VBEhDb25mZXJlbmNlIG9uIEVmZmVjdGl2ZSBNYW5hZ2VtZW50IG9mIEh1bWFuIFJlc291cmNlIGluIERBViBJbnN0aXR1dGlvbnNEL1Bob3RvR2FsbGVyeS9TbWFsbC9mN2NlYTk5Zi02MzQ1LTRlNjEtYTdiMC01ZTg1NDRiYmYwNDhfRFNDNzIxMS5KUEdIQ29uZmVyZW5jZSBvbiBFZmZlY3RpdmUgTWFuYWdlbWVudCBvZiBIdW1hbiBSZXNvdXJjZSBpbiBEQVYgSW5zdGl0dXRpb25zSENvbmZlcmVuY2Ugb24gRWZmZWN0aXZlIE1hbmFnZW1lbnQgb2YgSHVtYW4gUmVzb3VyY2UgaW4gREFWIEluc3RpdHV0aW9uc2QCBw9kFgJmDxUEHkluZHVjdGlvbiBQcm9ncmFtbWUgKEphbiAyMDE4KUkvUGhvdG9HYWxsZXJ5L1NtYWxsL2VlNTg0MTY1LTg1MTgtNDllYy1iYjE3LTc1ZDg4ZGZhZDQ3Y19pbmRfcF9zICgxOSkuSlBHHkluZHVjdGlvbiBQcm9ncmFtbWUgKEphbiAyMDE4KR5JbmR1Y3Rpb24gUHJvZ3JhbW1lIChKYW4gMjAxOClkAgkPZBYCZg8VBCpJbmR1Y3Rpb24gUHJvZ3JhbW1lIG9mIERBViBIZWFkcyBhdCBEQVZDTUNFL1Bob3RvR2FsbGVyeS9TbWFsbC9iM2U4MTRjMi04MTQ4LTQ5NjItYTA4NC04ZjRlYmQ2MDQ0NjhfSU1HXzA4NzQuSlBHKkluZHVjdGlvbiBQcm9ncmFtbWUgb2YgREFWIEhlYWRzIGF0IERBVkNNQypJbmR1Y3Rpb24gUHJvZ3JhbW1lIG9mIERBViBIZWFkcyBhdCBEQVZDTUNkAgsPZBYCZg8VBCpJbmR1Y3Rpb24gUHJvZ3JhbW1lIG9mIERBViBIZWFkcyBhdCBEQVZDTUNFL1Bob3RvR2FsbGVyeS9TbWFsbC8wOTg5ZGEwOC1lYjYzLTRhOTAtYjY4Yy0zMTM0NjEwZDM3NzBfSU1HXzA1NjcuSlBHKkluZHVjdGlvbiBQcm9ncmFtbWUgb2YgREFWIEhlYWRzIGF0IERBVkNNQypJbmR1Y3Rpb24gUHJvZ3JhbW1lIG9mIERBViBIZWFkcyBhdCBEQVZDTUNkAg0PZBYCZg8VBCpJbmR1Y3Rpb24gUHJvZ3JhbW1lIG9mIERBViBIZWFkcyBhdCBEQVZDTUNFL1Bob3RvR2FsbGVyeS9TbWFsbC83MTg5NmYyMS01OWMwLTQ4NDUtYjU0NS1hOTI0OTc4NDVlN2NfSU1HXzExNDQuSlBHKkluZHVjdGlvbiBQcm9ncmFtbWUgb2YgREFWIEhlYWRzIGF0IERBVkNNQypJbmR1Y3Rpb24gUHJvZ3JhbW1lIG9mIERBViBIZWFkcyBhdCBEQVZDTUNkAg8PZBYCZg8VBB5JbmR1Y3Rpb24gUHJvZ3JhbW1lIChKYW4gMjAxOClDL1Bob3RvR2FsbGVyeS9TbWFsbC84Y2QxZmU4NC03OTUwLTRlOTktYWRhNy02YjJmZTczOTk0YWNfZGF2KDEpLkpQRx5JbmR1Y3Rpb24gUHJvZ3JhbW1lIChKYW4gMjAxOCkeSW5kdWN0aW9uIFByb2dyYW1tZSAoSmFuIDIwMTgpZAIRD2QWAmYPFQQOU2FtYXJwYW4gRGl3YXNFL1Bob3RvR2FsbGVyeS9TbWFsbC81ODMxYjAxMi1jYTU5LTQ3N2ItYWY4Zi1kOWViODMwZWUxYjhfSU1HTDgwMDcuSlBHDlNhbWFycGFuIERpd2FzDlNhbWFycGFuIERpd2FzZAITD2QWAmYPFQQeSW5kdWN0aW9uIFByb2dyYW1tZSAoSmFuIDIwMTgpSC9QaG90b0dhbGxlcnkvU21hbGwvODYyZWRkNjUtZTkyMS00Njg5LWE5ZjItOWQwNjE2MTMyZjhhX2luZF9wX3MgKDQpLkpQRx5JbmR1Y3Rpb24gUHJvZ3JhbW1lIChKYW4gMjAxOCkeSW5kdWN0aW9uIFByb2dyYW1tZSAoSmFuIDIwMTgpZAIVD2QWAmYPFQQOU2FtYXJwYW4gRGl3YXNFL1Bob3RvR2FsbGVyeS9TbWFsbC80MWE0ZmE0YS03YzM0LTQzYmUtYTY3OC1hZWNjZjZiY2VkNWRfSU1HTDgyMjguSlBHDlNhbWFycGFuIERpd2FzDlNhbWFycGFuIERpd2FzZAIXD2QWAmYPFQQqSW5kdWN0aW9uIFByb2dyYW1tZSBvZiBEQVYgSGVhZHMgYXQgREFWQ01DRS9QaG90b0dhbGxlcnkvU21hbGwvZDg0NDAyODktZmU4Ni00YjllLTgxMmQtM2Y5ZjcxZjg3ZjU2X0lNR18wMjQ3LkpQRypJbmR1Y3Rpb24gUHJvZ3JhbW1lIG9mIERBViBIZWFkcyBhdCBEQVZDTUMqSW5kdWN0aW9uIFByb2dyYW1tZSBvZiBEQVYgSGVhZHMgYXQgREFWQ01DZAIZD2QWAmYPFQQOU2FtYXJwYW4gRGl3YXNFL1Bob3RvR2FsbGVyeS9TbWFsbC9kZDdlZjg0NS04ZGVkLTQ1MzktOTdmMC03ZDJhNDFlOTRmZDVfSU1HTDgwNjguSlBHDlNhbWFycGFuIERpd2FzDlNhbWFycGFuIERpd2FzZAIbD2QWAmYPFQQSREFWIEZvdW5kYXRpb24gRGF5RC9QaG90b0dhbGxlcnkvU21hbGwvM2NlYTlmZjgtYjhmZS00MTdjLWJkOTQtMDA2NzA3ZjlhMmJjX0ZEICgyMykuSlBHEkRBViBGb3VuZGF0aW9uIERheRJEQVYgRm91bmRhdGlvbiBEYXlkAiMPDxYCHwRlZGQCJQ8WAh8EBYMDPGRpdj4NCgk8aW1nIGFsdD0iIiBzcmM9Ii9GaWxlLzQvaGVhZGVyaW1nLWNvbnRhY3QtdXNiICgxKS5wbmciIHN0eWxlPSJ3aWR0aDogMTYwcHg7IGhlaWdodDogMTE1cHg7IG1hcmdpbjogMHB4OyIgLz48L2Rpdj4NCjxwPg0KCTxiciAvPg0KCTxzcGFuIHN0eWxlPSJmb250LXNpemU6MTJweDsiPjxzdHJvbmc+REFWIENvbGxlZ2UgTWFuYWdpbmcgQ29tbWl0dGVlPC9zdHJvbmc+PGJyIC8+DQoJQ2hpdHJhIEd1cHRhIFJvYWQ8YnIgLz4NCglOZXcgRGVsaGkgLSAxMTAwNTU8YnIgLz4NCglUZWw6ICs5MSAxMSAyMzUwMzUwMDxiciAvPg0KCUUtTWFpbCBJZDombmJzcDtpbmZvQGRhdmNtYy5uZXQuaW48YnIgLz4NCglXZWJzaXRlOiB3d3cuPC9zcGFuPmRhdmNtYy5uZXQuaW48L3A+ZAInDw8WAh8EZWRkAikPZBYCAgEPFgIfCQIIFhBmD2QWAmYPFQMUaHR0cDovL2NtLmRhdmNtYy5pbi8GX2JsYW5rFE9OTElORSBDT01NVU5JQ0FUSU9OZAICD2QWAmYPFQMxaHR0cHM6Ly8xMTAuMTcyLjE0MC43NTo5MC9hY2NvdW50czIwMTUvbG9naW4uYXNweAZfYmxhbmsRQlVER0VUIEFORCBTQUxBUllkAgQPZBYCZg8VAxtodHRwczovLzExMC4xNzIuMTQwLjc1OjU0Mi8GX2JsYW5rElZFSElDTEUgTUFOQUdFTUVOVGQCBg9kFgJmDxUDPS9ERTQ2QTI4QS1GMDc1LTRCMEYtQTQ0RS03ODU3OTlGRjU1NjYvQ01TL1BhZ2UvUHJvdmlkZW50LUZ1bmQFX3NlbGYOUFJPVklERU5UIEZVTkRkAggPZBYCZg8VAzZodHRwOi8vb2x5bXBpYWQuZGF2Y21jLmluL09seW1waWFkL0xvZ2luP1JldHVyblVybD0lMmYGX2JsYW5rCE9MWU1QSUFEZAIKD2QWAmYPFQNDLzFENDQyMUE5LTc5RjEtNDBCMy1CNUE3LTVGNzBBNDY0QjY1QS9DTVMvUGFnZS9QZXJmb3JtYW5jZS1BbmFseXNpcwVfc2VsZhRQRVJGT1JNQU5DRSBBTkFMWVNJU2QCDA9kFgJmDxUDImh0dHA6Ly9kYXZzb2NpYWxhcHAubWl2Y2xpZW50Lm9yZy8GX2JsYW5rFERBViBJTlRFTExFQ1RVQUwgSFVCZAIOD2QWAmYPFQMiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2RhdnVuaXRlZAZfYmxhbmsKREFWIFVOSVRFRGQCKw8PFgIfBGVkZAIvDxYCHwQFcENvcHlyaWdodCDCqSAyMDE4IC0gQWxsIFJpZ2h0cyBSZXNlcnZlZCAtIERBViBDb2xsZWdlIE1hbmFnaW5nIENvbW1pdHRlZSwgQ2hpdHJhIEd1cHRhIFJvYWQsIE5ldyBEZWxoaSAtIDExMDA1NS5kZBkKGCA2UQevkbWXpWLQKjJenbTXKtp9J9YePErq5XU4" />
+</div>
+
+
+<script src="WebResource7bd4.js?d=02NZw-OSE_tK03q4Gv2ZkpgwI_mcAO91DK5JKEKcI-2q_-0GQ51p7LI_tg7v5knqB2Gm72OPM91lpQXAjN4_hUmfl91-frYv8w8jFyald9s1&amp;t=636576782940000000" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+</div>
+        <div class="TopHeaderMenu">
+
+        </div>
+        
+     <div class="container ">
+
+         
+         <div class="row Top-header PBTop">
+
+             <div style="height:1px;">&nbsp;</div>
+             <div class="col-lg-2" style="border-right: 1px solid #540707; text-align: center;">
+                 <div id="logopanel" class="Top-header-logo">
+	
+                     <img src="MyImages/LOGO.png" alt="logo" style="width:115px" />
+                     
+                 
+</div>
+             </div>
+
+             
+             <div id="panelSiteName" class="col-lg-10" class="col-lg-10 TPNMRG15">
+	
+                 <div >
+                     <a id="sitename" class="Sitetitle">DAV College Managing Committee</a>
+                 </div>
+                 <div>
+                     <span id="slogan" class="slogan">Chitra Gupta Road, New Delhi - 110055</span>
+                 </div>
+                 <div>
+                     
+                 </div>
+             
+</div>
+
+             
+
+             
+
+         </div>
+         
+         
+         <div class="row PBTOPMENBG">
+             
+             <div class="col-lg-12">
+                 <nav class="nav-wrapper navbar navbar-default" role="navigation" style="border: none; margin-top: -10px; z-index: 9999">
+                     
+<div id="menu">
+    <div style="width: 42px; height: 50px; float: left; line-height: 49px; margin-left: 3px; border-right: 1px solid #6c0808; text-align: center;" id="davApp"
+        title="DAV Portal"
+        >
+        <span class="icon fa-th" style="font-size: 26px;"></span>
+    </div>
+<a href="#Menu1_SkipLink"><img alt="Skip Navigation Links" src="WebResourceac14.gif?d=hGTctO6plY-2oi7W4PiJKHFRuqXEOJHnKNNRL_GwVHDahCQyum95elVkwM0_3gbUoNois10AET4DpeePjXVDpxHg2dPlDztJ65q63mNwgJc1&amp;t=636576782940000000" width="0" height="0" style="border-width:0px;" /></a><div id="Menu1" style="z-index:999">
+	<ul class="level1">
+		<li><a class="level1" href="Home.html" target="_self">HOME</a></li><li><a class="level1" href="90A072FD-CBD8-4081-9BA6-DE1B8A4A8A59/CMS/Page/DAV-CMC.html" target="_self">DAV CMC</a><ul class="level2">
+			<li><a class="level2" href="FB8EF082-F397-4A65-A640-E6A79FA736C3/CMS/Page/DAV-Movement.html" target="_self">DAV Movement</a></li><li><a class="level2" href="24256BC1-1CF9-4ACE-9291-F69AD90ED24C/CMS/Page/Present-Office-Bearers.html" target="_self">Present Office Bearers</a></li><li><a class="level2" href="21409B7F-5C5E-491E-A96D-58726D6E0C15/CMS/Page/Head-Office.html" target="_self">Head Office</a></li><li><a class="level2" href="902CAD36-4276-46A8-9987-696DCF40B0FB/CMS/Page/Message-of-The-President.html" target="_self">Message of The President</a></li><li><a class="level2" href="6D88E050-B435-4473-8C33-001A874D88B6/CMS/Page/Past-Presidents" target="_self">Past Presidents</a></li><li><a class="level2" href="5A5E9ACC-26AB-4783-8723-C023960DEFA5/CMS/Page/DAV-Anthem.html" target="_self">DAV Anthem</a></li>
+		</ul></li><li><a class="level1" href="Achievement.html" target="_self">ACHIEVERS</a></li><li><a class="level1" href="javascript:void(0);" target="_self">DAV NETWORK</a><ul class="level2">
+			<li><a class="level2" href="CABB0423-483E-4E48-AE5F-C4D64AABEC1F/CMS/Page/DAV-Schools.html" target="_self">DAV Schools</a></li><li><a class="level2" href="54788233-A9C4-4B70-895E-2031B6B58DF8/CMS/Page/DAV-Colleges.html" target="_self">DAV Colleges</a></li><li><a class="level2" href="4BE53C0E-C191-4C3C-A699-850BF9E20134/CMS/Page/DAV-Aided-Schools.html" target="_self">DAV Aided Schools</a></li><li><a class="level2" href="87F4FCE3-4DB4-4020-80DF-B33DBEAA251C/CMS/Page/Socio-Cultural.html" target="_self">Socio-Cultural</a></li>
+		</ul></li><li><a class="level1" href="https://davuniversity.org/" target="_blank">DAV UNIVERSITY</a></li><li><a class="level1" href="javascript:void(0);" target="_self">DEPARTMENT</a><ul class="level2">
+			<li><a class="level2" href="http://davcae.net.in/" target="_blank">DAV Centre for Academic Excellence</a></li><li><a class="level2" href="15815A12-882A-471B-8D76-39F1F60B4CE0/CMS/Page/Publication-Division" target="_self">Publication Division</a></li>
+		</ul></li><li><a class="level1" href="javascript:void(0);" target="_self">GALLERY</a><ul class="level2">
+			<li><a class="level2" href="http://davcmc.net.in/Full/Photo/all" target="_self">Photo Gallery</a></li>
+		</ul></li><li><a class="level1" href="javascript:void(0);" target="_self">DAV VIDEOS</a><ul class="level2">
+			<li><a class="level2" href="http://davcmc.net.in/2FC91AC7-CBCA-4E15-81C9-056BAC4FC050/CMS/Page/Dada-Vaswani-Message-for-Children" target="_self">Dada Vaswani Message for Children</a></li><li><a class="level2" href="http://davcmc.net.in/081348E1-D6DB-445C-80E7-9BB5CDB98537/CMS/Page/Dada-Vaswani-Message-for-DAV-Organisation" target="_self">Dada Vaswani Message for DAV Organisation</a></li><li><a class="level2" href="http://davcmc.net.in/6BE1FD97-4B10-4A26-AD27-19E66D9256E4/CMS/Page/DAV-Mukhyamantri" target="_self">DAV Mukhyamantri</a></li><li><a class="level2" href="http://davcmc.net.in/D73158A7-9D8B-4D28-9AF7-B49097F29D84/CMS/Page/DAV-University-Jalandhar" target="_self">DAV University Jalandhar</a></li>
+		</ul></li><li><a class="level1" href="javascript:void(0)" target="_self">HELP DESK</a><ul class="level2">
+			<li><a class="level2" href="http://davcmc.net.in/CE8E2176-0EA8-45EB-9CA2-8104D2C985E7/CMS/Page/Contact-Us" target="_self">Contact Us</a></li>
+		</ul></li>
+	</ul>
+</div><a id="Menu1_SkipLink"></a>
+</div>
+<div id="AppPortal" style="width: 400px; background: #7f0909;" data-status="1">
+    <ul class="PBTCOLUL">
+        <li><a href="http://cm.davcmc.in/" target="_blank">
+            <span class="icon fa-comments PBTCOLUL-ICON "></span>
+            <div class="PBTCOLUL-TXT">
+                communication module
+            </div>
+        </a>
+        </li>
+        <li><a href="https://110.172.140.75:90/accounts2015/login.aspx" target="_blank">
+            <span class="icon fa-rupee-sign PBTCOLUL-ICON "></span>
+                <div class="PBTCOLUL-TXT">
+                    account budget
+                </div>
+        </a>
+        </li>
+        <li><a href="https://110.172.140.75:542/" target="_blank">
+            <span class="icon fa-bus PBTCOLUL-ICON "></span>
+            <div class="PBTCOLUL-TXT">
+                vehicle management
+            </div>
+        </a>
+        </li>
+        <li><a href="http://davcmc.net.in/DE46A28A-F075-4B0F-A44E-785799FF5566/CMS/Page/Provident-Fund">
+            <span class="icon fa-money-bill PBTCOLUL-ICON "></span>
+            <div class="PBTCOLUL-TXT">
+                provident fund 
+            </div>
+        </a>
+        </li>
+        <li><a href="http://olympiad.davcmc.in/" target="_blank">
+            <span class="icon fa-trophy PBTCOLUL-ICON"></span>
+            <div class="PBTCOLUL-TXT">
+                olympiad
+            </div>
+        </a>
+        </li>
+        <li><a href="http://davcmc.net.in/1D4421A9-79F1-40B3-B5A7-5F70A464B65A/CMS/Page/Performance-Analysis">
+            <span class="icon fa-chart-line PBTCOLUL-ICON"></span>
+            <div class="PBTCOLUL-TXT">
+                performance analysis
+            </div>
+           
+
+        </a>
+        </li>
+        <li><a href="http://davsocialapp.mivclient.org/" target="_blank">
+            <span class="icon fa-lightbulb-o PBTCOLUL-ICON"></span>
+            <div class="PBTCOLUL-TXT">
+                DAV intellectual hub
+            </div>
+        </a>
+        </li>
+        <li><a href="https://www.facebook.com/davunited/" target="_blank">
+            <span class="icon fa-graduation-cap PBTCOLUL-ICON"></span>
+            <div class="PBTCOLUL-TXT">
+                DAV united
+            </div>
+        </a>
+        </li>
+    </ul>
+</div>
+
+
+                 </nav>
+             </div>
+
+         </div>
+
+
+         
+       
+
+         
+        
+
+         <div class="col-lg-12 clearfix" style="height: 1px;">&nbsp;</div>
+
+        
+        <div class="row">
+                
+            <div class="col-lg-8">
+                <div style="height: 300px; overflow: hidden;background:#fff;">
+                    
+<div id="pSlider">
+
+        <section class="box box-features">
+                <ul class="tabs">
+       	        <li><a href='#' class="active"></a></li>
+		        </ul>
+                <div class="viewer" style="overflow:hidden; height:250px;">
+			<div class="reel">
+    
+                
+					
+        <!-- Features -->
+         
+				<article id="32">
+				    <h2 class="caption-1">International Yoga Day 2018</h2>
+					<p class="caption-2">
+                        21st June 2018
+                    </p>
+                    <img src='http://davcmc.net.in/File/Slider_7af4d8b5-756a-49f6-b9ed-9178d47084fb_YOGA1.jpg' class="image image-full img-responsive" alt='International Yoga Day 2018' />
+                  
+					
+			    </article>
+             
+    
+                
+					
+        <!-- Features -->
+         
+				<article id="34">
+				    <h2 class="caption-1">Conference on Effective Management of Human Resource in DAV Institutions</h2>
+					<p class="caption-2">
+                        30-31 May 2018
+                    </p>
+                    <img src='http://davcmc.net.in/File/Slider_fbfcd8dc-db4e-4246-8e28-223d59604b18_s1.jpg' class="image image-full img-responsive" alt='Conference on Effective Management of Human Resource in DAV Institutions' />
+                  
+					
+			    </article>
+             
+    
+                
+					
+        <!-- Features -->
+         
+				<article id="35">
+				    <h2 class="caption-1">Conference on Effective Management of Human Resource in DAV Institutions</h2>
+					<p class="caption-2">
+                        30-31 May 2018
+                    </p>
+                    <img src='http://davcmc.net.in/File/Slider_77b1fe34-fec2-4997-8889-1f622dc60bf9_S2.jpg' class="image image-full img-responsive" alt='Conference on Effective Management of Human Resource in DAV Institutions' />
+                  
+					
+			    </article>
+             
+    
+                
+					
+        <!-- Features -->
+         
+				<article id="36">
+				    <h2 class="caption-1">Induction Programme of DAV Heads at DAVCMC</h2>
+					<p class="caption-2">
+                        4-13 June 2018
+                    </p>
+                    <img src='http://davcmc.net.in/File/Slider_617738d4-47ab-4814-9aa0-6487620ffbf3_IMG_0023.jpg' class="image image-full img-responsive" alt='Induction Programme of DAV Heads at DAVCMC' />
+                  
+					
+			    </article>
+             
+    
+                
+					
+        <!-- Features -->
+         
+				<article id="37">
+				    <h2 class="caption-1">Induction Programme of DAV Heads at DAVCMC</h2>
+					<p class="caption-2">
+                        4-13 June 2018
+                    </p>
+                    <img src='http://davcmc.net.in/File/Slider_df863b90-ff63-4319-ad88-f01ee04d67e3_IMG_0044.jpg' class="image image-full img-responsive" alt='Induction Programme of DAV Heads at DAVCMC' />
+                  
+					
+			    </article>
+             
+    
+                
+					
+        <!-- Features -->
+         
+				<article id="38">
+				    <h2 class="caption-1">Induction Programme of DAV Heads at DAVCMC</h2>
+					<p class="caption-2">
+                        4-13 June 2018
+                    </p>
+                    <img src='http://davcmc.net.in/File/Slider_35f09d90-5266-4878-87d3-1fae8e79e32b_IMG_0049.jpg' class="image image-full img-responsive" alt='Induction Programme of DAV Heads at DAVCMC' />
+                  
+					
+			    </article>
+             
+    
+                
+					
+        <!-- Features -->
+         
+				<article id="42">
+				    <h2 class="caption-1">Induction Programme of DAV Heads at DAVCMC</h2>
+					<p class="caption-2">
+                        4-13 June 2018
+                    </p>
+                    <img src='http://davcmc.net.in/File/Slider_b2f08305-eef9-4119-b9c0-59779654fa4b_IMG_0083.jpg' class="image image-full img-responsive" alt='Induction Programme of DAV Heads at DAVCMC' />
+                  
+					
+			    </article>
+             
+    
+                
+					
+        <!-- Features -->
+         
+				<article id="43">
+				    <h2 class="caption-1">Samarpan Diwas</h2>
+					<p class="caption-2">
+                        21st April 2018
+                    </p>
+                    <img src='http://davcmc.net.in/File/Slider_15180452-1385-4f11-b400-69623be16b3d_sd3.jpg' class="image image-full img-responsive" alt='Samarpan Diwas' />
+                  
+					
+			    </article>
+             
+    
+                
+					
+        <!-- Features -->
+         
+				<article id="44">
+				    <h2 class="caption-1">Samarpan Diwas</h2>
+					<p class="caption-2">
+                        21st April 2018
+                    </p>
+                    <img src='http://davcmc.net.in/File/Slider_be73c64d-2db6-434d-89ae-ff1b02c0da79_s5.png' class="image image-full img-responsive" alt='Samarpan Diwas' />
+                  
+					
+			    </article>
+             
+    
+           </div>
+        </div>
+        <div class="captions">
+			<span class="caption-line-1"></span>
+			<span class="caption-line-2"></span>
+		</div>
+    </section>
+    
+</div>
+                </div>
+            
+                <div>
+                    <h3 class="DAVNetwork">Our Network</h3>
+                    <p>
+                        DAV College Managing Committee was founded on the principle that by pursuing big ideas 
+                        and sharing what we learn, we make the world a better place. For more than 135 years, we haven’t strayed from that vision.
+                    </p>
+                    <div class="row DAVArea" style="text-align:center;">
+                        <div class="col-lg-3">
+                            <span class="icon fa-graduation-cap DAVIcon"></span>
+                            <div class="DAVNumber DAVTITLE-ZOOM-IN">900+</div>
+                            <div class="DavIconTitle">
+                                Campuses Spread over 21 States
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <span class="icon fa-briefcase DAVIcon"></span>
+                            <div class="DAVNumber">3000000+</div>
+                            <div class="DavIconTitle">
+                                Students
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <span class="icon fa-building DAVIcon"></span>
+                            <div class="DAVNumber">4000000+</div>
+                            <div class="DavIconTitle">
+                                Alumni
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <span class="icon fa-users DAVIcon"></span>
+                            <div class="DAVNumber">100000+</div>
+                            <div class="DavIconTitle">
+                                Employees
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <hr />
+                
+                
+                
+                <div >
+                    
+
+<div>
+    
+<div >
+    
+           
+          <table>
+              <tr>
+        
+            <td class="panel panel-default PBBG" style="" valign="top">
+                
+                <div class="panel-body" style="background: #fff; padding: 10px;">
+                    <div class="row11">
+                        <div class="col-lg-12" style="text-align:center;">
+                            <img src='http://davcmc.net.in/ProfileImages/59ccb207-45d0-4296-bcbf-7acc69ff7e77_5449fb25-d1cb-41f3-89a2-c0cfdb70f615_davcmc.png'
+                                width="150px"
+                                class="thumbnail"
+                                style="text-align: left; margin:auto" alt="" />
+                        </div>
+                        <div class="col-lg-12">
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="glyphicon glyphicon-pencil smallIcon"></i>&nbsp;
+                                        </td>
+                                        <td align="center" style="text-align:center;">
+                                            <h5>
+                                                <strong>
+                                                    DAV CMC
+                                                </strong>
+                                               
+
+                                            </h5>
+                                        </td>
+                                    </tr>
+                                </table>
+                               
+                            </div>
+                            <div style="text-align: justify;">
+                                <p style="text-align: justify;">
+	<span style="font-size:12px;">DAVCMC runs and manages over&nbsp; 900 educational institutions comprising of public schools, grants-in-aid schools, colleges, institutes of professional education and research institutions. Trusted by both.</span></p>
+<p style="margin: 0px 0px 15px; padding: 0px; font-size: 20px; font-weight: normal; line-height: normal; color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; text-align: right;">
+	<a href="http://davcmc.net.in/90A072FD-CBD8-4081-9BA6-DE1B8A4A8A59/CMS/Page/DAV-CMC"><span style="color:#b22222;"><span style="font-family: Arial, Verdana, sans-serif; font-size: 12px;">Continue Reading &raquo;</span></span></a></p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </td>
+        
+            <td class="panel panel-default PBBG" style="" valign="top">
+                
+                <div class="panel-body" style="background: #fff; padding: 10px;">
+                    <div class="row11">
+                        <div class="col-lg-12" style="text-align:center;">
+                            <img src='http://davcmc.net.in/ProfileImages/95a92b51-620d-4124-8d06-12c745f7e5ff_president-index.jpg'
+                                width="150px"
+                                class="thumbnail"
+                                style="text-align: left; margin:auto" alt="" />
+                        </div>
+                        <div class="col-lg-12">
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="glyphicon glyphicon-pencil smallIcon"></i>&nbsp;
+                                        </td>
+                                        <td align="center" style="text-align:center;">
+                                            <h5>
+                                                <strong>
+                                                    President's Message
+                                                </strong>
+                                               
+
+                                            </h5>
+                                        </td>
+                                    </tr>
+                                </table>
+                               
+                            </div>
+                            <div style="text-align: justify;">
+                                <div>
+	<p>
+		<strong>You Are Meant To Move Mountains!</strong></p>
+	<div>
+		<strong>Do you know what strong willpower can do? It can do magic!&nbsp;</strong></div>
+	<div>
+		<div>
+			I have always been fascinated with the saying that a strong belief can move mountains.</div>
+	</div>
+</div>
+<p style="text-align: right;">
+	<a href="http://davcmc.net.in/902CAD36-4276-46A8-9987-696DCF40B0FB/CMS/Page/Presidents-Message" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; text-align: right;"><span style="color: rgb(178, 34, 34);"><span style="font-family: Arial, Verdana, sans-serif; font-size: 12px;">Continue Reading &raquo;</span></span></a></p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </td>
+        
+            <td class="panel panel-default PBBG" style="" valign="top">
+                
+                <div class="panel-body" style="background: #fff; padding: 10px;">
+                    <div class="row11">
+                        <div class="col-lg-12" style="text-align:center;">
+                            <img src='http://davcmc.net.in/ProfileImages/237cdaed-6b3e-412c-9b89-986c73fbe9a2_arya-samj.jpg'
+                                width="150px"
+                                class="thumbnail"
+                                style="text-align: left; margin:auto" alt="" />
+                        </div>
+                        <div class="col-lg-12">
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <i class="glyphicon glyphicon-pencil smallIcon"></i>&nbsp;
+                                        </td>
+                                        <td align="center" style="text-align:center;">
+                                            <h5>
+                                                <strong>
+                                                    Arya Samaj
+                                                </strong>
+                                               
+
+                                            </h5>
+                                        </td>
+                                    </tr>
+                                </table>
+                               
+                            </div>
+                            <div style="text-align: justify;">
+                                <p style="text-align: justify;">
+	<span style="font-size:12px;">Arya Samaj is a progressive faith and a way of life founded by Swami Dayanand Saraswati. Arya Samaj aims at making man a good human being and achieving the two-fold development i.e. the spiritual.</span></p>
+<p style="text-align: right;">
+	<a href="http://appsabha.org/" style="text-align: right; font-family: Arial, Helvetica, sans-serif; font-size: 20px;" target="_blank"><span style="color: rgb(178, 34, 34);"><span style="font-family: Arial, Verdana, sans-serif; font-size: 12px;">Continue Reading &raquo;</span></span></a></p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </td>
+        
+            </tr>
+            
+            </table>
+        
+</div>
+
+    
+</div>
+                </div>
+
+                <div class="PBMarginTop50">
+
+                    <div class="panel panel-default PBPANEL">
+                        <div class="buttom">&nbsp;</div>
+                        <div class="">
+                            <div class="LeftCornar"></div>
+                            <div class="RightCornar"></div>
+                            <div class="Title PBPageCNTTitle">
+                                <span id="lblNewAdmission" class="">Circulars</span>
+                            </div>
+                            <div class="panel-body scroll" style="background-color: #fff; border: none; margin-top: 10px; height:200px">
+                                
+<div>&nbsp;</div>
+
+                                <ul class="list-group">
+                            
+                            <li class="list-group-item">
+                                <a href="http://davcmc.net.in/HighlightNewsDoc/2497625d-cbc7-4c2d-858e-a7ed26b90e90_d38c9b7b-94cb-4461-952b-17a6be484cae_DCAE(1).pdf">
+                                 For Visiting DAV Centre for Academic Excellence Please log on to www.davcae.net.in
+                                </a>
+                            </li>
+                            
+                               </ul>
+                            
+
+                            </div>
+                            <div class="">
+                                <a href="http://davcmc.net.in/Circulars" class="PBROUND" title="More">...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+                </div>
+
+                <div class="PBMarginTop50">
+
+                    <div class="col-lg-6">
+                        <div class="panel panel-default PBPANEL">
+                            <div class="buttom">&nbsp;</div>
+                            <div class="">
+                                <div class="LeftCornar"></div>
+                                <div class="RightCornar"></div>
+                                <div class="Title PBPageCNTTitle">
+                                    <span id="lblEventCalendar">DAV CMC Events</span>
+                                </div>
+                                <div class="panel-body " style="background-color: #fff; border: none; margin-top: 10px;">
+                                    <div class="PanelMaxHeight scroll">
+                                        
+
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+
+            <ul class="list-group NoListBullet">
+        
+        <li class="Page-list-group-item">
+            <div style="font-weight:bold; font-size:7pt;" class="underline">
+                <span>04/06/2018</span> - <span class="round">To</span> - <span>13/06/2018</span>
+            </div>
+            <div>
+              <a href='http://davcmc.net.in/13/Event/Detail/Dav'>Induction Programme (June-2018)</a> 
+            </div>
+            <div style="height:10px;">&nbsp;</div>
+        </li>
+      
+
+        
+        <li class="Page-list-group-item">
+            <div style="font-weight:bold; font-size:7pt;" class="underline">
+                <span>30/05/2018</span> - <span class="round">To</span> - <span>31/05/2018</span>
+            </div>
+            <div>
+              <a href='http://davcmc.net.in/12/Event/Detail/Dav'>Two Days Conference on Effective Management of Human Resource in DAV Institutions for Regional Directors</a> 
+            </div>
+            <div style="height:10px;">&nbsp;</div>
+        </li>
+      
+
+        
+        <li class="Page-list-group-item">
+            <div style="font-weight:bold; font-size:7pt;" class="underline">
+                <span>21/04/2018</span> - <span class="round">To</span> - <span>21/04/2018</span>
+            </div>
+            <div>
+              <a href='http://davcmc.net.in/11/Event/Detail/Dav'>DAV Organises Samarpan Diwas-2018</a> 
+            </div>
+            <div style="height:10px;">&nbsp;</div>
+        </li>
+      
+
+        
+        <li class="Page-list-group-item">
+            <div style="font-weight:bold; font-size:7pt;" class="underline">
+                <span>27/03/2018</span> - <span class="round">To</span> - <span>27/03/2018</span>
+            </div>
+            <div>
+              <a href='http://davcmc.net.in/10/Event/Detail/Dav'>Golden Jubilee Celebrations of MCM DAV College for Women, Chandigarh</a> 
+            </div>
+            <div style="height:10px;">&nbsp;</div>
+        </li>
+      
+
+        
+        <li class="Page-list-group-item">
+            <div style="font-weight:bold; font-size:7pt;" class="underline">
+                <span>27/03/2018</span> - <span class="round">To</span> - <span>27/03/2018</span>
+            </div>
+            <div>
+              <a href='http://davcmc.net.in/9/Event/Detail/Dav'>Governor of Meghalaya Sh. Ganga Prasad visited DAVCMC</a> 
+            </div>
+            <div style="height:10px;">&nbsp;</div>
+        </li>
+      
+
+        
+        <li class="Page-list-group-item">
+            <div style="font-weight:bold; font-size:7pt;" class="underline">
+                <span>15/01/2018</span> - <span class="round">To</span> - <span>24/03/2018</span>
+            </div>
+            <div>
+              <a href='http://davcmc.net.in/7/Event/Detail/Dav'>Induction Programme (Jan-2018)</a> 
+            </div>
+            <div style="height:10px;">&nbsp;</div>
+        </li>
+      
+
+        
+        <li class="Page-list-group-item">
+            <div style="font-weight:bold; font-size:7pt;" class="underline">
+                <span>11/10/2017</span> - <span class="round">To</span> - <span>11/10/2017</span>
+            </div>
+            <div>
+              <a href='http://davcmc.net.in/8/Event/Detail/Dav'>Bharat Yatra at Jaipur</a> 
+            </div>
+            <div style="height:10px;">&nbsp;</div>
+        </li>
+      
+
+        
+        </ul>
+        
+    
+
+
+
+                                    </div>
+                                   
+                                    <div class="">
+                                       <a href="http://davcmc.net.in/Event-Calendar" class="PBROUND" title="More">
+                                           ...
+                                       </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="panel panel-default PBPANEL">
+                            <div class="buttom">&nbsp;</div>
+                            <div class="">
+                                <div class="LeftCornar"></div>
+                                <div class="RightCornar"></div>
+                                <div class="Title PBPageCNTTitle">
+                                    <span id="lblAchievement">DAV CMC Achievements</span>
+                                </div>
+                                <div class="panel-body " style="background-color: #fff; border: none; margin-top: 10px;">
+                                    <div class="PanelMaxHeight scroll">
+                                        
+<div class="scroll content light">
+    
+        <ul class="list-group">
+        
+        <li>
+       
+                <div class="row">
+                    <div class="col-lg-2">
+                     <img src='http://davcmc.net.in/File/0b13ba09-177c-4e90-907d-d40b26c0a65d_Ach.jpg' style="padding:2px;width:80px; height:80px;" class="thumbnail" />
+                    </div>
+                    <div class="col-lg-10">
+                    <p style="padding:26px;">
+                        <a href='http://davcmc.net.in/15/Achievement-Detail/Our-Proud-Achiever!'>
+                    Our Proud Achiever!
+                    </a>
+                    </p>
+                    
+                    
+                    </div>
+                
+                </div>
+        </li>
+                 
+                         
+        
+            <div style="height:4px; margin-top:10px; margin-bottom:10px;border-bottom:1px solid #ccc;">&nbsp;</div>
+        
+        <li>
+       
+                <div class="row">
+                    <div class="col-lg-2">
+                     <img src='http://davcmc.net.in/File/e3df0f5e-1a66-45fa-b235-ef5a83e71ecd_Ach.jpg' style="padding:2px;width:80px; height:80px;" class="thumbnail" />
+                    </div>
+                    <div class="col-lg-10">
+                    <p style="padding:26px;">
+                        <a href='http://davcmc.net.in/14/Achievement-Detail/Success-Story-Of-Gold-and-Glory!'>
+                    Success Story Of Gold and Glory!
+                    </a>
+                    </p>
+                    
+                    
+                    </div>
+                
+                </div>
+        </li>
+                 
+                         
+        
+            <div style="height:4px; margin-top:10px; margin-bottom:10px;border-bottom:1px solid #ccc;">&nbsp;</div>
+        
+        <li>
+       
+                <div class="row">
+                    <div class="col-lg-2">
+                     <img src='http://davcmc.net.in/File/2df2566d-d2c0-4b59-9472-872ab547f3dd_Ach.jpg' style="padding:2px;width:80px; height:80px;" class="thumbnail" />
+                    </div>
+                    <div class="col-lg-10">
+                    <p style="padding:26px;">
+                        <a href='http://davcmc.net.in/5/Achievement-Detail/Intel-International-Science-and-Engineering-Fair-in-USA---2018'>
+                    Intel International Science and Engineering Fair in USA - 2018
+                    </a>
+                    </p>
+                    
+                    
+                    </div>
+                
+                </div>
+        </li>
+                 
+                         
+        
+       
+            </ul>
+
+            
+        
+</div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="">
+                                    <a href="http://davcmc.net.in/Achievement" class="PBROUND" title="More">...
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        &nbsp;
+                    </div>
+                </div>
+
+                <div id="pnlBC">
+	
+                   
+                
+</div>
+
+                
+             
+                   
+
+                    
+                   
+            </div>
+               
+            
+            <div class="col-lg-4">
+                <div>&nbsp;</div>
+                    <div class="panel panel-default noticeboard" style="height:400px;">
+                    <div class="buttom">&nbsp;</div>
+                        <div class="">
+                                    <div class="LeftCornar"></div><div class="RightCornar"></div>
+                                    <div class="Title PBPageCNTTitle">
+                                          <span id="lblNoticeBoard">IN FOCUS</span>
+                                    </div>
+                        <div class="panel-body" style="background-color:#fff; border:none; margin-top:10px;">
+                            
+<marquee scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="up" style="height:352px; margin-top:5px;width: 100%;">
+<div class=" content light">
+ 
+        <ul class="list-group">
+    
+        <li class="Page-list-group-item" style="border-bottom: 1px solid #ccc;">
+                        <div style="position:relative" class="row">
+                            <div class="col-lg-12">
+                                <p>
+	<img src="http://davcmc.net.in/File/4/image4011.gif" style="background-color: initial; width: 37px;"> <a href="http://davcmc.net.in/File/4/EmpForm_Haryana.pdf" target="_blank"><span style="background-color: initial;"><strong></strong></span><strong><span style="color: rgb(54, 96, 146);">Application for the post of Principal/Director in DAV Inst. Of Faridabad, Haryana.</span></strong></a>
+</p> &nbsp;    
+                            </div>
+                </div>
+        </li>
+           
+
+        
+        <li class="Page-list-group-item" style="border-bottom: 1px solid #ccc;">
+                        <div style="position:relative" class="row">
+                            <div class="col-lg-12">
+                                <p>
+	 <img src="http://davcmc.net.in/File/4/image4011.gif" style="background-color: initial; width: 37px;"> <a href="http://davcmc.net.in/File/4/Principal Form.pdf" target="_blank"><span style="color: rgb(31, 73, 125);"><span style="background-color: initial;"></span></span><strong><span style="color: rgb(31, 73, 125);">Application for the Post of Principal/HM in DAV Public Schools.</span></strong></a>
+</p> &nbsp;    
+                            </div>
+                </div>
+        </li>
+           
+
+        
+        <li class="Page-list-group-item" style="border-bottom: 1px solid #ccc;">
+                        <div style="position:relative" class="row">
+                            <div class="col-lg-12">
+                                <p>
+	<img src="http://davcmc.net.in/File/4/image4011.gif" style="background-color: initial; width: 37px;"><strong style="background-color: initial;"><span style="background-color: initial; color: rgb(31, 73, 125);"> </span></strong><strong><span style="color: rgb(31, 73, 125);"><a href="https://drive.google.com/file/d/1IXz9S32fnqrmXwRfibzkWBpH1UU5B2Fj/view?usp=sharing" target="_blank"><span data-redactor="verified" style="color: rgb(31, 73, 125);">Expression of Interest for Running of DAV Center</span></a>.</span></strong>
+</p> &nbsp;    
+                            </div>
+                </div>
+        </li>
+           
+
+        
+        <li class="Page-list-group-item" style="border-bottom: 1px solid #ccc;">
+                        <div style="position:relative" class="row">
+                            <div class="col-lg-12">
+                                <h4><span style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 0);">Schools:</span></h4>
+<p>
+	 <img src="http://davcmc.net.in/File/4/image4011.gif" style="background-color: initial; width: 36px;"> <a href="http://davcmc.net.in/File/4/Schools_Gr_LE_GST.zip" target="_blank"><span style="color: rgb(31, 73, 125);"><span style="background-color: initial;"></span><strong></strong></span><strong><span style="color: rgb(31, 73, 125);">Proforma of Gratuity/Leave Encashment and Circular of GST.</span></strong></a>
+</p> &nbsp;    
+                            </div>
+                </div>
+        </li>
+           
+
+        
+        <li class="Page-list-group-item" style="border-bottom: 1px solid #ccc;">
+                        <div style="position:relative" class="row">
+                            <div class="col-lg-12">
+                                <h4><span style="background-color: rgb(255, 255, 0); color: rgb(0, 0, 0);">Colleges:</span></h4>
+<p>
+	<img src="http://davcmc.net.in/File/4/image4011.gif" style="background-color: initial; width: 36px;"><span style="color: rgb(31, 73, 125);"><span style="background-color: initial;"> </span><span style="background-color: initial;"><strong><span style="color: rgb(31, 73, 125);"></span></strong></span></span><strong><a href="http://davcmc.net.in/File/4/GST LE GR Colleges.zip" target="_blank"><span style="color: rgb(54, 96, 146);">Proforma of Gratuity/Leave Encashment and Circular of GST.</span></a></strong>
+</p> &nbsp;    
+                            </div>
+                </div>
+        </li>
+           
+
+        
+        <li class="Page-list-group-item" style="border-bottom: 1px solid #ccc;">
+                        <div style="position:relative" class="row">
+                            <div class="col-lg-12">
+                                <p style="text-align: center;">
+	<a href="https://davuniversity.org/" style="background-color: initial;"><br>
+	 <img src="https://lh3.googleusercontent.com/8ZHAOkdtKVPl5wQHFGDmBmXNHbzX9Lg2ertaASyIFvwcP8xfzUBnEqrhXjRuk5l3Ej71vL_OfZOA17RW7cil2UqrjcB773c2IzaL5bckyJns8gjuqkRodGeQCmQJO9j_5hPYB1DRGRpbhimjW1WeUEI-Gxpc6Q0nRi29aHS6bytKCH7oqs1ApD2kZSeEsmo4GWS-L6gorObtq_HdAEf3HPOVofn9exW76HDNiKFwKQhglzRKZQempxbSik1F6zRLUpwktf7fZrmezyOhY9XcV8Ql-zGS9WEtSxPijsF-_cekgaxKjYMuClLGBSEd98fuvYhIxFPkcwU0uz69Os9gJ4rY9-bjRoDIQU-FwtOp7Ae_ex184RcHknUEsjcBsowPihIZvloro5YOB7jKvjG7dFZxYSyhMoxb-K3iIlln7_mC_4T99OBdvJFvMv7xHtLNzQWumzmGZXjDtxeEOPrgdo-PjXN9Glw9Ummxm0FPqyDuwsjVqySvUdkyTzG2BTXuKd0zWRdfv0Z48gdV_9pNbNaL74OmU8eSAvTe3YEUBVtsLu0S3jqs71EHuQdkL6BOPHQi1uEioeveSCy2UxTinOuhDkWC5IPhLFpmCL0=w652-h200-no" alt="" style="width: 238px;" border="1"></a>
+</p>
+<p style="text-align: center;">
+</p>
+<p style="text-align: center;">
+</p>
+<p style="text-align: center;">
+</p> &nbsp;    
+                            </div>
+                </div>
+        </li>
+           
+
+        
+        <li class="Page-list-group-item" style="border-bottom: 1px solid #ccc;">
+                        <div style="position:relative" class="row">
+                            <div class="col-lg-12">
+                                <p>
+	<span style="background-color: initial;">A</span><span style="background-color: initial;">ll the heads are informed not to make any donations until and unless directed by <strong>DAV College Managing Committee or Arya Pradheshik Pratinidhi Sabha.</strong></span>
+</p> &nbsp;    
+                            </div>
+                </div>
+        </li>
+           
+
+        
+        </ul>
+       
+</div>
+</marquee>
+                        </div>
+
+                        </div>
+                        
+                        
+                    </div>
+
+                    <div id="pnlB">
+	
+                   
+                    
+                    <div>&nbsp;</div>
+
+                        <div class="PBMarginTop50">
+                            <div class="panel panel-default noticeboard" style="height: 467px;">
+                                <div class="buttom">&nbsp;</div>
+                                <div class="">
+                                    <div class="LeftCornar"></div>
+                                    <div class="RightCornar"></div>
+                                    <div class="Title PBPageCNTTitle">
+                                        <span id="Label1" class="">DAV Portal</span>
+                                    </div>
+                                    <div class="panel-body scroll"
+                                        style="background-color: #fff; border: none; margin-top: 10px; max-height: 390px; overflow: hidden; overflow-y: auto;">
+
+
+                                        <ul class="PBTCOLUL" style="margin-top:13px;">
+                                            <li style="width: 156px; display: inline-block;"><a href="http://cm.davcmc.in/" target="_blank">
+                                                <span class="icon fa-comments PBTCOLUL-ICON "></span>
+                                                <div class="PBTCOLUL-TXT" style="color:#000">
+                                                    communication module
+                                                </div>
+                                            </a>
+                                            </li>
+                                            <li style="width: 156px; display: inline-block;"><a href="https://110.172.140.75:90/accounts2015/login.aspx" target="_blank">
+                                                <span class="icon fa-rupee-sign PBTCOLUL-ICON "></span>
+                                                <div class="PBTCOLUL-TXT" style="color: #000">
+                                                    account budget
+                                                </div>
+                                            </a>
+                                            </li>
+                                            <li style="width: 156px; display: inline-block;"><a href="https://110.172.140.75:542/" target="_blank">
+                                                <span class="icon fa-bus PBTCOLUL-ICON "></span>
+                                                <div class="PBTCOLUL-TXT" style="color: #000">
+                                                    vehicle management
+                                                </div>
+                                            </a>
+                                            </li>
+                                            <li style="width: 156px; display: inline-block;"><a href="http://davcmc.net.in/DE46A28A-F075-4B0F-A44E-785799FF5566/CMS/Page/Provident-Fund" 
+                                                <span class="icon fa-money-bill PBTCOLUL-ICON "></span>
+                                                <div class="PBTCOLUL-TXT" style="color: #000">
+                                                    provident fund 
+                                                </div>
+                                            </a>
+                                            </li>
+                                            <li style="width: 156px; display: inline-block;"><a href="http://oly.davcmc.in/" target="_blank">
+                                                <span class="icon fa-trophy PBTCOLUL-ICON"></span>
+                                                <div class="PBTCOLUL-TXT" style="color: #000">
+                                                    olympiad
+                                                </div>
+                                            </a>
+                                            </li>
+                                            <li style="width: 156px; display: inline-block;"><a href="#">
+                                                <span class="icon fa-chart-line PBTCOLUL-ICON"></span>
+                                                <div class="PBTCOLUL-TXT" style="color: #000">
+                                                    performance analysis
+                                                </div>
+
+
+                                            </a>
+                                            </li>
+                                            <li style="width: 156px; display: inline-block;"><a href="http://davsocialapp.mivclient.org/" target="_blank">
+                                                <span class="icon fa-lightbulb-o PBTCOLUL-ICON"></span>
+                                                <div class="PBTCOLUL-TXT" style="color: #000">
+                                                    DAV intellectual hub
+                                                </div>
+                                            </a>
+                                            </li>
+                                            <li style="width: 156px; display: inline-block;"><a href="#">
+                                                <span class="icon fa-graduation-cap PBTCOLUL-ICON"></span>
+                                                <div class="PBTCOLUL-TXT" style="color: #000">
+                                                    DAV United
+                                                </div>
+                                            </a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="PBMarginTop50">
+
+                            <div class="panel panel-default noticeboard" style="height: 400px;">
+                                <div class="buttom">&nbsp;</div>
+                                <div class="">
+                                    <div class="LeftCornar"></div>
+                                    <div class="RightCornar"></div>
+                                    <div class="Title PBPageCNTTitle">
+                                        <span id="lblPhoto" class="">Photo Gallery</span>
+                                    </div>
+                                    <div class="panel-body scroll"
+                                        style="background-color: #fff; border: none; margin-top: 10px; max-height: 350px; overflow: hidden; overflow-y: auto;">
+                                        
+<div style="margin-top: 14px;">
+<span id="ddlistGallery"><span>
+                <div id="scroller">
+                <ul class="smallgallery">
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Conference on Effective Management of Human Resource in DAV Institutions'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/d1a03b1d-4e02-4373-ab94-121cb7da3c93_DSC7267.JPG' style="" alt='Conference on Effective Management of Human Resource in DAV Institutions' title='Conference on Effective Management of Human Resource in DAV Institutions' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='DAV Foundation Day'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/eab32e4b-6d53-40d0-852f-e0b049493769_FD (20).JPG' style="" alt='DAV Foundation Day' title='DAV Foundation Day' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Conference on Effective Management of Human Resource in DAV Institutions'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/f7cea99f-6345-4e61-a7b0-5e8544bbf048_DSC7211.JPG' style="" alt='Conference on Effective Management of Human Resource in DAV Institutions' title='Conference on Effective Management of Human Resource in DAV Institutions' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Induction Programme (Jan 2018)'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/ee584165-8518-49ec-bb17-75d88dfad47c_ind_p_s (19).JPG' style="" alt='Induction Programme (Jan 2018)' title='Induction Programme (Jan 2018)' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Induction Programme of DAV Heads at DAVCMC'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/b3e814c2-8148-4962-a084-8f4ebd604468_IMG_0874.JPG' style="" alt='Induction Programme of DAV Heads at DAVCMC' title='Induction Programme of DAV Heads at DAVCMC' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Induction Programme of DAV Heads at DAVCMC'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/0989da08-eb63-4a90-b68c-3134610d3770_IMG_0567.JPG' style="" alt='Induction Programme of DAV Heads at DAVCMC' title='Induction Programme of DAV Heads at DAVCMC' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Induction Programme of DAV Heads at DAVCMC'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/71896f21-59c0-4845-b545-a92497845e7c_IMG_1144.JPG' style="" alt='Induction Programme of DAV Heads at DAVCMC' title='Induction Programme of DAV Heads at DAVCMC' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Induction Programme (Jan 2018)'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/8cd1fe84-7950-4e99-ada7-6b2fe73994ac_dav(1).JPG' style="" alt='Induction Programme (Jan 2018)' title='Induction Programme (Jan 2018)' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Samarpan Diwas'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/5831b012-ca59-477b-af8f-d9eb830ee1b8_IMGL8007.JPG' style="" alt='Samarpan Diwas' title='Samarpan Diwas' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Induction Programme (Jan 2018)'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/862edd65-e921-4689-a9f2-9d0616132f8a_ind_p_s (4).JPG' style="" alt='Induction Programme (Jan 2018)' title='Induction Programme (Jan 2018)' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Samarpan Diwas'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/41a4fa4a-7c34-43be-a678-aeccf6bced5d_IMGL8228.JPG' style="" alt='Samarpan Diwas' title='Samarpan Diwas' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Induction Programme of DAV Heads at DAVCMC'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/d8440289-fe86-4b9e-812d-3f9f71f87f56_IMG_0247.JPG' style="" alt='Induction Programme of DAV Heads at DAVCMC' title='Induction Programme of DAV Heads at DAVCMC' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='Samarpan Diwas'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/dd7ef845-8ded-4539-97f0-7d2a41e94fd5_IMGL8068.JPG' style="" alt='Samarpan Diwas' title='Samarpan Diwas' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+           
+        </span><span>
+                    <li>
+                        <a  href='http://davcmc.net.in/Full/Photo/all' title='DAV Foundation Day'>
+                        <img src='http://davcmc.net.in/PhotoGallery/Small/3cea9ff8-b8fe-417c-bd94-006707f9a2bc_FD (23).JPG' style="" alt='DAV Foundation Day' title='DAV Foundation Day' width="100px" class="thumbnail" />                           </a>
+                    </li>
+        
+        </span><span>
+                </ul>
+            </div>
+            <div style="clear:both;"></div>
+        </span></span>
+</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                       
+                    
+</div>
+                   
+                </div>
+         
+       </div>
+
+      
+    </div>
+        <div class="footer">
+
+        <div class="container footer-container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <fieldset>
+                        <legend class="Underline" style="border-bottom: none;">
+                            <span id="lblcontactUs" class="footerTitle" style="color: #fff"></span>
+                        </legend>
+                        <div>
+                            <div>
+	<img alt="" src="http://davcmc.net.in/File/4/headerimg-contact-usb (1).png" style="width: 160px; height: 115px; margin: 0px;" /></div>
+<p>
+	<br />
+	<span style="font-size:12px;"><strong>DAV College Managing Committee</strong><br />
+	Chitra Gupta Road<br />
+	New Delhi - 110055<br />
+	Tel: +91 11 23503500<br />
+	E-Mail Id:&nbsp;info@davcmc.net.in<br />
+	Website: www.</span>davcmc.net.in</p>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-lg-3">
+                    <fieldset>
+                        <legend class="Underline" style="border-bottom: none;">
+                            <span id="lblqquicklinks" class="footerTitle" style="color: #fff"></span>
+                        </legend>
+                        <div>
+                            
+<div style="height:250px; overflow:auto;"  class="jScrollbar" id="boxscroll2" >
+
+        
+            <div>
+                <a href='http://cm.davcmc.in/' target='_blank'>
+                    ONLINE COMMUNICATION
+                </a>
+            </div>
+            
+                <div style="height:2px; margin-bottom:2px; margin-top:2px;">
+                    &nbsp;
+                </div>
+            
+            <div>
+                <a href='https://110.172.140.75:90/accounts2015/login.aspx' target='_blank'>
+                    BUDGET AND SALARY
+                </a>
+            </div>
+            
+                <div style="height:2px; margin-bottom:2px; margin-top:2px;">
+                    &nbsp;
+                </div>
+            
+            <div>
+                <a href='https://110.172.140.75:542/' target='_blank'>
+                    VEHICLE MANAGEMENT
+                </a>
+            </div>
+            
+                <div style="height:2px; margin-bottom:2px; margin-top:2px;">
+                    &nbsp;
+                </div>
+            
+            <div>
+                <a href='http://davcmc.net.in/DE46A28A-F075-4B0F-A44E-785799FF5566/CMS/Page/Provident-Fund' target='_self'>
+                    PROVIDENT FUND
+                </a>
+            </div>
+            
+                <div style="height:2px; margin-bottom:2px; margin-top:2px;">
+                    &nbsp;
+                </div>
+            
+            <div>
+                <a href='http://olympiad.davcmc.in/Olympiad/Login?ReturnUrl=%2f' target='_blank'>
+                    OLYMPIAD
+                </a>
+            </div>
+            
+                <div style="height:2px; margin-bottom:2px; margin-top:2px;">
+                    &nbsp;
+                </div>
+            
+            <div>
+                <a href='http://davcmc.net.in/1D4421A9-79F1-40B3-B5A7-5F70A464B65A/CMS/Page/Performance-Analysis' target='_self'>
+                    PERFORMANCE ANALYSIS
+                </a>
+            </div>
+            
+                <div style="height:2px; margin-bottom:2px; margin-top:2px;">
+                    &nbsp;
+                </div>
+            
+            <div>
+                <a href='http://davsocialapp.mivclient.org/' target='_blank'>
+                    DAV INTELLECTUAL HUB
+                </a>
+            </div>
+            
+                <div style="height:2px; margin-bottom:2px; margin-top:2px;">
+                    &nbsp;
+                </div>
+            
+            <div>
+                <a href='https://www.facebook.com/davunited' target='_blank'>
+                    DAV UNITED
+                </a>
+            </div>
+            
+</div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-lg-4">
+                    <fieldset>
+                        <legend class="Underline" style="border-bottom: none;">
+                            <span id="lblLocation" class="footerTitle" style="color: #fff"></span>
+                        </legend>
+                        <div>
+                            <iframe width='425px' height='200px' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1767659.3117233126!2d75.44139596067757!3d30.081021212886817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd42ef1146ef%3A0x9436f531ffca73a4!2sDAV+College+Managing+Committee!5e0!3m2!1sen!2sin!4v1522467835729" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe" ></iframe><br />
+                        </div>
+                    </fieldset>
+                </div>
+
+             
+
+              
+
+            </div>
+            <div class="row" style="background-color: #f8a427; border-top: 1px solid rgba(51, 51, 51, 0.99); padding: 0px; line-height: 28px; height: 30px; color: #000;">
+                <div>
+                    &nbsp;
+                    Copyright © 2018 - All Rights Reserved - DAV College Managing Committee, Chitra Gupta Road, New Delhi - 110055.
+                </div>
+
+            </div>
+        </div>
+
+
+            
+
+        </div>
+    
+<script type='text/javascript'>new Sys.WebForms.Menu({ element: 'Menu1', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script></form>
+
+    
+</body>
+
+<!-- Mirrored from davcmc.net.in/Home by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Jul 2018 14:52:57 GMT -->
+</html>
