@@ -1,0 +1,499 @@
+
+<html><head>
+<meta name="google-site-verification" content="RSRiXxyi0yfzLc2hlpwn-CfzmJLecoWF218revKlHaI">
+<title>:: Welcome to DAV Hudco Bhilai ::</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+var i=0;
+
+$(document).ready(function(){
+    console.log('DocumentReady');
+
+        $('#NoticeText').load('notice.html');
+        $('#message_holder').load('notice.html');
+
+        setInterval(function(){
+            displayNews();
+        }, 7000);
+
+
+});
+
+var displayNews = function(){
+  var message = $('#message_holder').html();
+  console.log(message);
+  message += '<br>';
+  var messageArray = message.split('<br>');
+ var currelem = i%(messageArray.length);
+ console.log('currelem', currelem, 'legnth', messageArray.length);
+
+    $('#NoticeText2').html(messageArray[currelem]);
+
+
+    if(messageArray[currelem] == ''){
+      i++;
+      displayNews();
+    }
+    i++;
+}
+
+</script>
+<style type="text/css">
+   body {
+   margin-left: 0px;
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   }
+   .main-border {
+   border: 1px solid #d8d8d8;
+   }
+   .JKouter {
+  margin: 50px;
+}
+
+.JKbutton {
+  border: 1px solid black;
+  border-radius: 0px;
+  width: 210px;
+  height: fit-content;
+  display: block;
+
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+}
+
+.JKbutton:hover {
+  background-position: left bottom;
+}
+
+.JKtext {
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  color: black;
+  transition: all .6s ease-out;
+  display: block;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.JKtext:hover {
+  color: white;
+}
+
+.newsblock{
+  margin: 5px;
+  background: #444444;
+  display: inline-flex;
+  position: relative;
+  width: 22%;
+  height: 200px;
+  transition: all 0.5s ease-out;
+
+}
+
+.newsblock:hover{
+  background: #454c72bf;
+}
+</style><script>
+
+var hover = function(elem){
+elem.style.backround = '#ffffff'
+}
+
+  var buttonclick = function(){
+    var jsb = document.getElementById('JKTech');
+    jsb.style = '';
+    var nb = document.getElementById('NoticeBoard');
+    nb.style = 'display:none';
+  }
+</script><link href="http://davbhilai.org/rootinc/theme/dav-hudco-medialab.css" rel="stylesheet" type="text/css"></head>
+
+
+
+<body onload="MM_preloadImages('/images/message-to-parents-2.jpg')"><table class="main-border" width="968" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody><tr>
+<td></td>
+
+<td valign="top" align="center"><img src="http://davbhilai.org/images/header1n.jpg" width="1000" height="135" border="0"> </td>
+
+</tr>
+<tr>
+<td style="padding-left:5" valign="top" background="/images/">
+</td>
+<td valign="top" align="center">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awes/4.7.0/css/font-awesome.min.css">
+<style>
+               .navbar {
+               overflow: hidden;
+               background-color: #333;
+               font-family: Arial, Helvetica, sans-serif;
+               }
+               .navbar a {
+               float: left;
+               font-size: 12px;
+               color: white;
+               text-align: center;
+               padding: 12px 14px;
+               text-decoration: none;
+               }
+               .dropdown {
+               float: left;
+               overflow: hidden;
+               }
+               .dropdown .dropbtn {
+               font-size: 12px;
+               border: none;
+               outline: none;
+               color: white;
+               padding: 12px 14px;
+               background-color: inherit;
+               font-family: inherit;
+               margin: 0;
+               }
+               .navbar a:hover, .dropdown:hover .dropbtn {
+               background-color: red;
+               }
+               .dropdown-content {
+               display: none;
+               position: absolute;
+               background-color: #f9f9f9;
+               min-width: 150px;
+               box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.2);
+               z-index: 1;
+               }
+               .dropdown-content a {
+               float: none;
+               color: black;
+               padding: 12px 14px;
+               text-decoration: none;
+               display: block;
+               text-align: left;
+               }
+               .dropdown-content a:hover {
+               background-color: #ddd;
+               }
+               .dropdown:hover .dropdown-content {
+               display: block;
+               }
+            </style>
+
+
+<div class="navbar">
+<a href="http://davbhilai.org#home">Home</a>
+<a href="http://davbhilai.org/contents/Introdution.php">About School</a>
+<div class="dropdown">
+<button class="dropbtn">Students
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="http://davbhilai.org/contents/codeofconduct.php">Code of Conduct</a>
+<a href="http://davbhilai.org/contents/AIMS.php">Aim</a>
+<a href="http://davbhilai.org/contents/school-timing.php">School Timings</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Fees Structure
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="http://davbhilai.org/contents/registration.php">Registration</a>
+<a href="http://davbhilai.org/contents/fees.structure.php ">Fees Structure</a>
+<a href="http://davbhilai.org/contents/modeofpayment.php">Mode Of Fees Payment</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Infrastructure
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="http://davbhilai.org#">Labs</a>
+<a href="http://davbhilai.org#">Lobby</a>
+<a href="http://davbhilai.org#">MP Hall</a>
+<a href="http://davbhilai.org#">Liabrary</a>
+<a href="http://davbhilai.org#">School Building</a>
+<a href="http://davbhilai.org#">Exam Room</a>
+<a href="http://davbhilai.org#">Staff Room</a>
+<a href="http://davbhilai.org#">Smart Class</a>
+<a href="http://davbhilai.org#">Pre Primary Wing</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Transport System
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="http://davbhilai.org/contents/bus-rules.php">Bus Rules</a>
+<a href="http://davbhilai.org/contents/bus-timetable.php">Bus Time Table</a>
+<a href="http://davbhilai.org/contents/bus.php">Bus Fees</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Exam Corner
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="http://davbhilai.org/contents/syllabus.php">Syllabus 2018-19</a>
+<a href="http://davbhilai.org/downloads-file/X RESULT 2018.pdf">Result Class X 2017-18</a>
+<a href="http://davbhilai.org/downloads-file/CLASS xii RESULT 2018.pdf">Result Class XII 2017-18</a>
+<a href="http://davbhilai.org#">Result Analysis</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Staff Members
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="http://davbhilai.org/contents/faculty-members.php">Faculty Members</a>
+<a href="http://davbhilai.org/contents/admistrative-staff.php ">Administrative Staff</a>
+</div>
+</div>
+<a href="http://davbhilai.org/contents/dignataries-visited.php">Dignitaries Visited</a>
+</div>
+
+
+<link href="http://davbhilai.org/rootinc/theme/dav-hudco-medialab.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+         function MM_swapImgRestore() { //v3.0
+           var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+         }
+         function MM_preloadImages() { //v3.0
+           var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+             var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+             if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+         }
+
+         function MM_findObj(n, d) { //v4.01
+           var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+             d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+           if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+           for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+           if(!x && d.getElementById) x=d.getElementById(n); return x;
+         }
+
+         function MM_swapImage() { //v3.0
+           var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+            if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+         }
+      </script>
+<style type="text/css">
+         <!--
+            .style1 {
+            	font-size: 12px
+            }
+            -->
+      </style>
+
+<div id="NoticeBoard" style="">
+    <h2>News & Events</h2>
+    <center><div style="background: #fbf7ae;border: 2px solid blue;width: fit-content;width: -moz-fit-content;padding-top: 20px;padding-bottom: 20px;padding-left: 10px;padding-right: 10px;margin: 20px;" id = "NoticeText"></div>
+  <table style="background: #fbf7ae; border: 2px solid blue; display:none"  cellspacing="2" cellpadding="0" border="0">
+                  <tbody><tr>
+                    <td class="home-intro"><strong><img src="/images/bullet-sign-1.jpg" width="15" height="14" align="absmiddle"> News &amp; Events</strong></td>
+                  </tr>
+                  <tr>
+                    <td class="news-event" valign="top">
+
+
+                      <table class="news-board"  cellspacing="0" cellpadding="0" border="0">
+
+                        <tbody><tr>
+                          <td class="bottom-dotted-border" valign="top"><table class="bottom-dotted-border" width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tbody><tr>
+                              <td class="news-board" height="62">Half Yearly Examination for classes V to Class X will commence from 11 Sep 2018  .&nbsp;</td>
+                            </tr>
+
+			<tr>
+                              <td class="news-board" height="62">II Unit Test  for class III and IV  will commence from 6 Sep 2018  .&nbsp;</td>
+                            </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</tbody></table></td>
+                          </tr>
+                      </tbody></table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="more" align="right"><a href="#">more</a></td>
+                  </tr>
+                </tbody></table>
+
+</center>
+<div class="JKouter">
+<div class="JKbutton" onclick="buttonclick()">
+<div class="JKtext" onclick=displayNews()> Continue To Main Site </div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+<div id="JKTech" style="display: none;">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type"><link rel="stylesheet" href="http://davbhilai.org/css/dav.css"><div id="slider">
+<div class="w3-content w3-section" style="max-width: 1100 px;border: solid #e0564b; margin: 0px;">
+<img class="mySlides" src="http://davbhilai.org/images/BEN.JPG" style="width: 1000px; display: none;" height="450">
+<img class="mySlides" src="http://davbhilai.org/images/CONTEMP.JPG" style="width: 1000px; display: block;" height="450">
+<img class="mySlides" src="http://davbhilai.org/images/Classical Dance.JPG" style="width: 1000px; display: none;" height="450">
+<img class="mySlides" src="http://davbhilai.org/images/timeline.JPG" style="width: 1000px; display: none;" height="450">
+<img class="mySlides" src="http://davbhilai.org/images/SILVERJ.JPG" style="width: 1000px; display: none;" height="450">
+</div>
+<script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 50000); // Change image every 2 seconds
+            }
+         </script>
+</div><table width="100%" cellspacing="1" cellpadding="0" border="0">
+
+
+
+<style>
+            .mySlides {display:none;}
+         </style>
+
+
+<tbody><tr>
+<td width="539" valign="top" align="center"><table width="98%" height="285" cellspacing="1" cellpadding="2" border="0">
+<tbody><tr>
+<td align="center">
+</td></tr>
+<tr>
+<td height="6" align="center"></td>
+</tr>
+<tr>
+<td align="center"><table width="100%" cellspacing="0" cellpadding="3" border="0">
+<tbody><tr>
+<td class="v-border h-border" width="50%" valign="top" align="center"><table width="100%" cellspacing="2" cellpadding="0" border="0">
+<tbody><tr>
+<td class="home-intro"><strong><img src="http://davbhilai.org/images/bullet-sign-1.jpg" width="15" height="14" align="absmiddle"> Message from Principal</strong></td>
+</tr>
+<tr>
+<td class="home-intro" valign="top" height="170"><p><img src="http://davbhilai.org/images/principal-img.jpg" width="80" height="89" align="left">Dear parents,<br>
+It has been very well said that, â€˜without ideals, without efforts, without scholarship, without philosophical continuity there is no such thing as education . â€™ In fact, real education consist of doing oneâ€™s best. </p></td>
+</tr>
+<tr>
+<td class="more" align="right"><a href="http://davbhilai.org/contents/principal-message.php">more</a></td>
+</tr>
+</tbody></table></td>
+<td class="h-border" width="50%" valign="top" align="center" style="padding-top: 10px;"><b style="font-size: smaller;">News & Events</b><div id="NoticeText2" style="margin-top: 10px;"></div></td>
+</tr>
+</tbody></table></td>
+</tr>
+<tr>
+<td class="h-border" align="center"><table width="80%" cellspacing="0" cellpadding="3" border="0">
+<tbody><tr>
+
+</tr></tbody></table></td>
+</tr>
+</tbody></table></td>
+<td class="iner-left-line-border" width="250" valign="top" align="left"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+
+
+
+<tbody><tr>
+<td class="home-intro"><strong><img src="http://davbhilai.org/images/bullet-sign-1.jpg" width="15" height="14" align="absmiddle"> Downloads</strong></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.org/downloads-file/">.</a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.orghttps://davhudco.com/school/backend.php?urlmid=y3ey78zUvNBy46257uXdqqPDpt%2B1k63n69K10cJt3Oytv6bdvuvflb6uzo6h4tnm2qSuu77N55ywmevz3dbYz4Pc0dLamay3vN%2B6uNM%3D&amp;sbd=0YTjzefFp94=">On Line Fees Payment (Open Compas)</a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.org/downloads-file/INSTRUCTIONS FOR BUS TIMING.pdf">Bus Timing for Examination</a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.org/downloads-file/Date Sheet for Hy Exam. 2018.pdf">Half Yearly Examination 2018</a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.org/downloads-file/UNIT TEST-II 2108.pdf">II Unit Test 2018</a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.org/downloads-file/committes (ADOCH REMOVED).pdf">Committees 2018-19</a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.org/contents/syllabus.php">Syllabus 2018-19</a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.org/downloads-file/Terms and condition.pdf">online payment - Terms and Condition </a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.org/downloads-file/DAV BOOKS 2018-19.pdf">DAV BOOKS 2018-19</a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.orghttp://www.cbse.nic.in/prunit/Helpline/Helpline.htm">CBSE Helpline</a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.orghttp://davcae.net.in/F9491760-E979-4222-8842-D553417C8ECF/Page/Year-2013---2014">Sample Paper (VIII,XI) </a></td>
+</tr>
+<tr>
+<td class="dotted-border" align="left"><a href="http://davbhilai.org/contents/fees.structure.php">Fees Structure 2018-19</a></td>
+</tr>
+<tr>
+</tr><tr>
+
+</tr><tr>
+<td align="center"><table width="214" cellspacing="0" cellpadding="0" border="0">
+
+</table>
+</td></tr></tbody></table>
+
+</td>
+</tr>
+<tr></tr></tbody></table></div>
+
+<table><tbody><tr><td><img src="http://davbhilai.org/images/footern.jpg"></td></tr></tbody></table>
+</td></tr></tbody></table>
+
+<div id="message_holder" style="display:none;"></div>
+
+</body></html>
